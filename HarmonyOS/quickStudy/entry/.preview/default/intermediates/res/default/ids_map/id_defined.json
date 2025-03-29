@@ -76,6 +76,10 @@
 			"name":	"enablement_pic1",
 			"id":	"0x01000012"
 		}, {
+			"type":	"media",
+			"name":	"tutorial_pic3",
+			"id":	"0x01000013"
+		}, {
 			"type":	"string",
 			"name":	"EnablementItemTitle",
 			"id":	"0x01000014"
@@ -83,5 +87,77 @@
 			"type":	"string",
 			"name":	"EnablementItemBrief",
 			"id":	"0x01000015"
+		}, {
+			"type":	"media",
+			"name":	"enablement_pic2",
+			"id":	"0x01000016"
+		}, {
+			"type":	"media",
+			"name":	"tutorial_pic8",
+			"id":	"0x01000017"
+		}, {
+			"type":	"media",
+			"name":	"enablement_pic7",
+			"id":	"0x01000018"
+		}, {
+			"type":	"media",
+			"name":	"tutorial_pic10",
+			"id":	"0x01000019"
+		}, {
+			"type":	"media",
+			"name":	"enablement_pic8",
+			"id":	"0x0100001A"
+		}, {
+			"type":	"media",
+			"name":	"tutorial_pic6",
+			"id":	"0x0100001B"
+		}, {
+			"type":	"media",
+			"name":	"tutorial_pic4",
+			"id":	"0x0100001C"
+		}, {
+			"type":	"media",
+			"name":	"enablement_pic6",
+			"id":	"0x0100001D"
+		}, {
+			"type":	"media",
+			"name":	"enablement_pic3",
+			"id":	"0x0100001E"
+		}, {
+			"type":	"media",
+			"name":	"tutorial_pic7",
+			"id":	"0x0100001F"
+		}, {
+			"type":	"media",
+			"name":	"tutorial_pic1",
+			"id":	"0x01000020"
+		}, {
+			"type":	"media",
+			"name":	"enablement_pic5",
+			"id":	"0x01000021"
+		}, {
+			"type":	"media",
+			"name":	"enablement_pic4",
+			"id":	"0x01000022"
+		}, {
+			"type":	"media",
+			"name":	"tutorial_pic11",
+			"id":	"0x01000023"
+		}, {
+			"type":	"media",
+			"name":	"tutorial_pic9",
+			"id":	"0x01000024"
+		}, {
+			"type":	"media",
+			"name":	"tutorial_pic5",
+			"id":	"0x01000025"
+		}, {
+			"type":	"media",
+			"name":	"tutorial_pic12",
+			"id":	"0x01000026"
+		}, {
+			"type":	"media",
+			"name":	"tutorial_pic2",
+			"id":	"0x01000027"
 		}]
 }
