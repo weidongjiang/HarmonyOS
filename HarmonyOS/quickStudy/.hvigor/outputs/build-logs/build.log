@@ -6780,3 +6780,1104 @@
 [2025-03-29T12:10:09.708] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
 [2025-03-29T12:10:10.288] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
 [2025-03-29T12:10:10.289] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:13:27.484] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:13:27.484] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:13:27.494] [DEBUG] debug-file - bad codeSnippet [object Object]
+[2025-03-29T12:13:27.496] [DEBUG] debug-file - watch worker: worker is ready to be terminated.
+[2025-03-29T12:13:27.496] [DEBUG] debug-file - Server currently has 0 watch-worker
+[2025-03-29T12:19:17.744] [DEBUG] debug-file - session manager: set active socket. socketId=dU6pBfRzJsiNV8xkAAAL
+[2025-03-29T12:19:17.746] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-03-29T12:19:17.755] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-03-29T12:19:17.759] [DEBUG] debug-file - Cache service initialization finished in 4 ms 
+[2025-03-29T12:19:17.767] [DEBUG] debug-file - hvigorfile, resolving /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/hvigorfile.ts
+[2025-03-29T12:19:17.772] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-03-29T12:19:17.772] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-03-29T12:19:17.776] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-03-29T12:19:17.776] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-03-29T12:19:17.776] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-03-29T12:19:17.776] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-03-29T12:19:17.778] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2025-03-29T12:19:17.778] [DEBUG] debug-file - not found resModel json file in : /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/src/ohosTest/module.json5
+[2025-03-29T12:19:17.781] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-03-29T12:19:17.787] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-03-29T12:19:17.815] [DEBUG] debug-file - Sdk init in 34 ms 
+[2025-03-29T12:19:17.829] [DEBUG] debug-file - Project task initialization takes 13 ms 
+[2025-03-29T12:19:17.829] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-03-29T12:19:17.829] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/hvigorfile.ts
+[2025-03-29T12:19:17.829] [DEBUG] debug-file - hvigorfile, resolve finished /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/hvigorfile.ts
+[2025-03-29T12:19:17.833] [DEBUG] debug-file - hvigorfile, resolving /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/hvigorfile.ts
+[2025-03-29T12:19:17.836] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-03-29T12:19:17.836] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-03-29T12:19:17.841] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-03-29T12:19:17.841] [DEBUG] debug-file - Target 'default' config: {}
+[2025-03-29T12:19:17.841] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-03-29T12:19:17.841] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-03-29T12:19:17.841] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-03-29T12:19:17.841] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-03-29T12:19:17.841] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-03-29T12:19:17.843] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2025-03-29T12:19:17.844] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-03-29T12:19:17.844] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/hvigorfile.ts
+[2025-03-29T12:19:17.844] [DEBUG] debug-file - hvigorfile, resolve finished /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/hvigorfile.ts
+[2025-03-29T12:19:17.933] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 89 ms 
+[2025-03-29T12:19:17.933] [DEBUG] debug-file - project has submodules:entry
+[2025-03-29T12:19:17.935] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-03-29T12:19:17.937] [DEBUG] debug-file - load to the disk finished
+[2025-03-29T12:19:17.937] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-03-29T12:19:17.938] [DEBUG] debug-file - Module quickStudy Collected Dependency: 
+[2025-03-29T12:19:17.938] [DEBUG] debug-file - Module quickStudy's total dependency: 0
+[2025-03-29T12:19:17.938] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-03-29T12:19:17.938] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-03-29T12:19:17.938] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-03-29T12:19:17.940] [DEBUG] debug-file - Configuration phase cost:178 ms 
+[2025-03-29T12:19:17.941] [DEBUG] debug-file - Configuration task cost before running: 193 ms 
+[2025-03-29T12:19:17.942] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:17.942] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:17.944] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-03-29T12:19:17.946] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 2 ms .
+[2025-03-29T12:19:17.946] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.23188018798828125
+[2025-03-29T12:19:17.947] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2025-03-29T12:19:17.948] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:17.948] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:17.949] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-03-29T12:19:17.949] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 1 ms .
+[2025-03-29T12:19:17.949] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.0922698974609375
+[2025-03-29T12:19:17.950] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2025-03-29T12:19:17.951] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:17.951] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:17.951] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-03-29T12:19:17.952] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-03-29T12:19:17.952] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 1 ms .
+[2025-03-29T12:19:17.952] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.08827972412109375
+[2025-03-29T12:19:17.952] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2025-03-29T12:19:17.954] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:17.954] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:17.954] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-03-29T12:19:17.954] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:17.954] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:17.954] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.03720855712890625
+[2025-03-29T12:19:17.955] [DEBUG] debug-file - runTaskFromQueue task cost before running: 207 ms 
+[2025-03-29T12:19:17.955] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-03-29T12:19:17.956] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:17.956] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:17.959] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-03-29T12:19:17.959] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-03-29T12:19:17.959] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.03652191162109375
+[2025-03-29T12:19:17.959] [DEBUG] debug-file - runTaskFromQueue task cost before running: 211 ms 
+[2025-03-29T12:19:17.959] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 1 ms 
+[2025-03-29T12:19:17.960] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:17.960] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:17.961] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-03-29T12:19:17.961] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2025-03-29T12:19:17.962] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.0511474609375
+[2025-03-29T12:19:17.962] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2025-03-29T12:19:17.963] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:17.963] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:17.964] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-03-29T12:19:17.965] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 1 ms .
+[2025-03-29T12:19:17.965] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.12578582763671875
+[2025-03-29T12:19:17.966] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2025-03-29T12:19:17.967] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:17.967] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:17.968] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewProcessResource
+[2025-03-29T12:19:17.969] [DEBUG] debug-file - Executing task :entry:default@PreviewProcessResource
+[2025-03-29T12:19:17.970] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:17.970] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:17.970] [DEBUG] debug-file - entry : default@PreviewProcessResource cost memory 0.07630157470703125
+[2025-03-29T12:19:17.970] [DEBUG] debug-file - runTaskFromQueue task cost before running: 223 ms 
+[2025-03-29T12:19:17.971] [INFO] debug-file - Finished :entry:default@PreviewProcessResource... after 1 ms 
+[2025-03-29T12:19:17.972] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:17.972] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:17.974] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-03-29T12:19:17.982] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 4 ms .
+[2025-03-29T12:19:17.982] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.57373046875
+[2025-03-29T12:19:17.984] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2025-03-29T12:19:17.985] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:17.985] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:17.986] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewCompileResource
+[2025-03-29T12:19:17.987] [DEBUG] debug-file - Executing task :entry:default@PreviewCompileResource
+[2025-03-29T12:19:17.990] [DEBUG] debug-file - entry:default@PreviewCompileResource is not up-to-date, since the input file '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/src/main/resources' has been changed.
+[2025-03-29T12:19:17.991] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource pre-execution cost: 3 ms .
+[2025-03-29T12:19:18.022] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool',
+  '-x',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/AppScope/resources',
+  '-o',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/app_compiled'
+]
+[2025-03-29T12:19:18.023] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 415408128,
+  heapTotal: 144580608,
+  heapUsed: 122335560,
+  external: 2996679,
+  arrayBuffers: 118324
+} os memoryUsage :30.185359954833984
+[2025-03-29T12:19:18.036] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-03-29T12:19:18.037] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool',
+  '-x',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/src/main/resources',
+  '-o',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/module_compiled'
+]
+[2025-03-29T12:19:18.038] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 415408128,
+  heapTotal: 144580608,
+  heapUsed: 122569704,
+  external: 2996727,
+  arrayBuffers: 85258
+} os memoryUsage :30.187389373779297
+[2025-03-29T12:19:18.050] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-03-29T12:19:18.050] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool',
+  '-m',
+  'entry',
+  '-f',
+  '-j',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/process_profile/default/module.json',
+  '-p',
+  'c***t',
+  '-r',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/generated/r/default/ResourceTable.h',
+  '-z',
+  '--ids',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/ids_map',
+  '--defined-ids',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/ids_map/id_defined.json',
+  '-i',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/app_compiled',
+  '-i',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/module_compiled',
+  '-o',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default'
+]
+[2025-03-29T12:19:18.051] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 415408128,
+  heapTotal: 144580608,
+  heapUsed: 122833096,
+  external: 2996775,
+  arrayBuffers: 85306
+} os memoryUsage :30.187625885009766
+[2025-03-29T12:19:18.106] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-03-29T12:19:18.108] [DEBUG] debug-file - entry : default@PreviewCompileResource cost memory -2.76629638671875
+[2025-03-29T12:19:18.108] [DEBUG] debug-file - runTaskFromQueue task cost before running: 361 ms 
+[2025-03-29T12:19:18.109] [INFO] debug-file - Finished :entry:default@PreviewCompileResource... after 121 ms 
+[2025-03-29T12:19:18.110] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:18.110] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:18.110] [DEBUG] debug-file - Executing task :entry:default@PreviewHookCompileResource
+[2025-03-29T12:19:18.110] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:18.110] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:18.110] [DEBUG] debug-file - entry : default@PreviewHookCompileResource cost memory 0.03894805908203125
+[2025-03-29T12:19:18.110] [DEBUG] debug-file - runTaskFromQueue task cost before running: 363 ms 
+[2025-03-29T12:19:18.110] [INFO] debug-file - Finished :entry:default@PreviewHookCompileResource... after 1 ms 
+[2025-03-29T12:19:18.112] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:18.112] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:18.112] [DEBUG] debug-file - Executing task :entry:default@CopyPreviewProfile
+[2025-03-29T12:19:18.112] [DEBUG] debug-file - entry:default@CopyPreviewProfile is not up-to-date, since the output file '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/resources/base/profile' does not exist.
+[2025-03-29T12:19:18.112] [DEBUG] debug-file - Incremental task entry:default@CopyPreviewProfile pre-execution cost: 1 ms .
+[2025-03-29T12:19:18.112] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:18.112] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:18.114] [DEBUG] debug-file - entry : default@CopyPreviewProfile cost memory 0.1914520263671875
+[2025-03-29T12:19:18.114] [DEBUG] debug-file - runTaskFromQueue task cost before running: 366 ms 
+[2025-03-29T12:19:18.114] [INFO] debug-file - Finished :entry:default@CopyPreviewProfile... after 2 ms 
+[2025-03-29T12:19:18.115] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:18.115] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:18.116] [DEBUG] debug-file - Executing task :entry:default@ReplacePreviewerPage
+[2025-03-29T12:19:18.116] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:18.116] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:18.116] [DEBUG] debug-file - entry : default@ReplacePreviewerPage cost memory 0.04009246826171875
+[2025-03-29T12:19:18.116] [DEBUG] debug-file - runTaskFromQueue task cost before running: 368 ms 
+[2025-03-29T12:19:18.116] [INFO] debug-file - Finished :entry:default@ReplacePreviewerPage... after 1 ms 
+[2025-03-29T12:19:18.117] [DEBUG] debug-file - Executing task :entry:buildPreviewerResource
+[2025-03-29T12:19:18.117] [DEBUG] debug-file - entry : buildPreviewerResource cost memory 0.011688232421875
+[2025-03-29T12:19:18.117] [DEBUG] debug-file - runTaskFromQueue task cost before running: 369 ms 
+[2025-03-29T12:19:18.117] [INFO] debug-file - Finished :entry:buildPreviewerResource... after 1 ms 
+[2025-03-29T12:19:18.118] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:18.118] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:18.119] [DEBUG] debug-file - Executing task :entry:default@PreviewUpdateAssets
+[2025-03-29T12:19:18.119] [DEBUG] debug-file - entry:default@PreviewUpdateAssets is not up-to-date, since the output file '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/module.json' has been changed.
+[2025-03-29T12:19:18.119] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets pre-execution cost: 1 ms .
+[2025-03-29T12:19:18.119] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:18.119] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:18.120] [DEBUG] debug-file - entry : default@PreviewUpdateAssets cost memory 0.12143707275390625
+[2025-03-29T12:19:18.120] [DEBUG] debug-file - runTaskFromQueue task cost before running: 372 ms 
+[2025-03-29T12:19:18.120] [INFO] debug-file - Finished :entry:default@PreviewUpdateAssets... after 2 ms 
+[2025-03-29T12:19:18.121] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:19:18.121] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:19:18.124] [DEBUG] debug-file - Executing task :entry:default@PreviewArkTS
+[2025-03-29T12:19:18.128] [DEBUG] debug-file - entry:default@PreviewArkTS is not up-to-date, since the input file '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/ResourceTable.txt' has been changed.
+[2025-03-29T12:19:18.128] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS pre-execution cost: 2 ms .
+[2025-03-29T12:19:18.134] [DEBUG] debug-file - session manager: binding session. socketId=dU6pBfRzJsiNV8xkAAAL, threadId=1@5.
+[2025-03-29T12:19:18.134] [DEBUG] debug-file - entry : default@PreviewArkTS cost memory 0.8654022216796875
+[2025-03-29T12:19:20.486] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:19:20.487] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:19:25.984] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:19:25.985] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:19:25.986] [DEBUG] debug-file - Ark compile finished.
+[2025-03-29T12:19:25.988] [INFO] debug-file - Finished :entry:default@PreviewArkTS... after 7 s 863 ms 
+[2025-03-29T12:19:25.989] [DEBUG] debug-file - Executing task :entry:PreviewBuild
+[2025-03-29T12:19:25.989] [DEBUG] debug-file - entry : PreviewBuild cost memory 0.01155853271484375
+[2025-03-29T12:19:25.989] [DEBUG] debug-file - runTaskFromQueue task cost before running: 8 s 242 ms 
+[2025-03-29T12:19:25.989] [INFO] debug-file - Finished :entry:PreviewBuild... after 1 ms 
+[2025-03-29T12:19:25.992] [DEBUG] debug-file - BUILD SUCCESSFUL in 8 s 245 ms 
+[2025-03-29T12:19:25.992] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2025-03-29T12:19:25.993] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2025-03-29T12:19:25.993] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2025-03-29T12:19:25.993] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/loader/default/pkgContextInfo.json cache.
+[2025-03-29T12:19:25.993] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-03-29T12:19:25.993] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2025-03-29T12:19:25.993] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2025-03-29T12:19:25.993] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2025-03-29T12:19:25.993] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/src/main/resources cache from map.
+[2025-03-29T12:19:25.993] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/merge_profile/default/module.json cache by regenerate.
+[2025-03-29T12:19:25.994] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default cache.
+[2025-03-29T12:19:25.995] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/generated/r/default cache.
+[2025-03-29T12:19:25.996] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource post-execution cost:3 ms .
+[2025-03-29T12:19:25.996] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile input file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/src/main/resources/base/profile cache by regenerate.
+[2025-03-29T12:19:25.996] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile output file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/resources/base/profile cache.
+[2025-03-29T12:19:25.996] [DEBUG] debug-file - Incremental task entry:default@CopyPreviewProfile post-execution cost:1 ms .
+[2025-03-29T12:19:25.996] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/module.json cache.
+[2025-03-29T12:19:25.996] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/resources/base/profile/main_pages.json cache.
+[2025-03-29T12:19:25.996] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets post-execution cost:1 ms .
+[2025-03-29T12:19:25.997] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/loader/default cache by regenerate.
+[2025-03-29T12:19:25.997] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/ResourceTable.txt cache from map.
+[2025-03-29T12:19:25.997] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/process_profile/default/module.json cache by regenerate.
+[2025-03-29T12:19:25.997] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/resources/base/profile cache by regenerate.
+[2025-03-29T12:19:25.998] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/src/main/ets cache by regenerate.
+[2025-03-29T12:19:25.998] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/generated/profile/default/BuildProfile.ets cache by regenerate.
+[2025-03-29T12:19:25.998] [DEBUG] debug-file - Update task entry:default@PreviewArkTS output file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/loader_out/default/ets cache.
+[2025-03-29T12:19:25.998] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS post-execution cost:2 ms .
+[2025-03-29T12:19:26.032] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2025-03-29T12:19:26.033] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-03-29T12:19:43.303] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:19:43.304] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:19:43.892] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-03-29T12:19:43.893] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-03-29T12:19:43.989] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-03-29T12:19:43.990] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-03-29T12:19:44.116] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:19:44.117] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:20:02.804] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:20:02.805] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:20:03.307] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-03-29T12:20:03.308] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-03-29T12:20:03.375] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-03-29T12:20:03.376] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-03-29T12:20:03.512] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:20:03.513] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:20:07.948] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:20:07.949] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:20:08.433] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-03-29T12:20:08.434] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-03-29T12:20:08.530] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:20:08.531] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:20:36.066] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:20:36.067] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:20:36.561] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-03-29T12:20:36.562] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-03-29T12:20:36.657] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:20:36.658] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:20:59.331] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:20:59.332] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:21:00.916] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-03-29T12:21:00.918] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-03-29T12:21:01.030] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:21:01.031] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:21:08.219] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:21:08.220] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:21:08.220] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:21:08.941] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:21:08.942] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:21:09.765] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:21:09.765] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:21:09.766] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:21:10.085] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:21:10.087] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:21:11.329] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:21:11.329] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:21:11.330] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:21:11.631] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:21:11.632] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:21:14.491] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:21:14.491] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:21:14.492] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:21:14.798] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:21:14.799] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:21:14.800] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:21:14.800] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:21:14.801] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:21:15.105] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:21:15.106] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:21:17.284] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:21:17.285] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:21:17.285] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:21:17.596] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:21:17.597] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:21:18.405] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:21:18.405] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:21:18.406] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:21:18.711] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:21:18.713] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:21:18.757] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:21:18.757] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:21:18.757] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:21:19.064] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:21:19.065] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:21:19.294] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:21:19.294] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:21:19.295] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:21:19.295] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:21:19.295] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:21:19.295] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:21:19.610] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:21:19.611] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:21:19.657] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:21:19.658] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:21:19.658] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:21:19.916] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:21:19.917] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:21:19.919] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:21:19.919] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:21:19.920] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:21:20.231] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:21:20.232] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:21:20.233] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:21:20.233] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:21:20.233] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:21:20.552] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:21:20.553] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:21:20.845] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:21:20.847] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:21:21.471] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:21:21.472] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:21:21.917] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-03-29T12:21:21.918] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-03-29T12:21:22.000] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:21:22.001] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:21:43.408] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:21:43.410] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:21:43.952] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:21:43.952] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:21:54.458] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:21:54.458] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:21:54.458] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:21:54.458] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:21:54.458] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:21:54.458] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:21:54.799] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:21:54.800] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:21:55.100] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:21:55.101] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:22:00.570] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:22:00.571] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:22:00.571] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:22:00.884] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:22:00.885] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:22:01.614] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:22:01.614] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:22:01.615] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:22:01.615] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:22:01.615] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:22:01.615] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:22:01.615] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:22:01.615] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:22:01.616] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:22:01.966] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:22:01.967] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:22:01.968] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:22:01.968] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:22:01.969] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:22:02.290] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:22:02.291] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:22:02.318] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:22:02.319] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:22:02.319] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:22:02.606] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:22:02.608] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:22:02.922] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:22:02.923] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:22:03.244] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:22:03.245] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:22:03.246] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:22:03.246] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:22:03.246] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:22:03.562] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:22:03.563] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:22:03.564] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:22:03.564] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:22:03.564] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:22:03.879] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:22:03.880] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:22:03.881] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:22:03.881] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:22:03.881] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:22:04.203] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:22:04.204] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:22:05.309] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:22:05.310] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:22:05.950] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:22:05.951] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:22:06.980] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:22:06.981] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:22:06.981] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:22:07.300] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:22:07.301] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:22:07.302] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:22:07.302] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:22:07.303] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:22:07.628] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:22:07.628] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:22:11.653] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:22:11.653] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:22:12.148] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:22:12.149] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:22:33.052] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:22:33.052] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:22:33.052] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:22:33.354] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:22:33.354] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:22:36.778] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:22:36.779] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:22:37.277] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:22:37.277] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:23:16.611] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:23:16.612] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:23:17.241] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:23:17.242] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:24:43.407] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:24:43.407] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:24:43.407] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:24:43.741] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:24:43.743] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:24:47.593] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:24:47.594] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:24:48.150] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:24:48.152] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:25:21.028] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:21.028] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:21.029] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:21.346] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:21.347] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:21.348] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:21.348] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:21.348] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:21.663] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:21.664] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:21.665] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:21.665] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:21.666] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:21.972] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:21.974] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:21.975] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:21.975] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:21.976] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:22.282] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:22.283] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:22.537] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:22.537] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:22.538] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:22.841] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:22.842] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:22.844] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:22.844] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:22.844] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:23.154] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:23.155] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:23.156] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:23.157] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:23.157] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:23.463] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:23.465] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:23.705] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:23.705] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:23.706] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:24.005] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:24.007] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:24.008] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:24.008] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:24.008] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:24.306] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:24.308] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:24.309] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:24.309] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:24.309] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:24.612] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:24.612] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:25.316] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:25.316] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:25.316] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:25.614] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:25.615] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:25.820] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:25.820] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:25.820] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:26.124] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:26.125] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:26.126] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:26.126] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:26.127] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:26.431] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:26.433] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:26.435] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:26.435] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:26.435] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:26.747] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:26.749] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:26.867] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:26.867] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:26.867] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:27.167] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:27.167] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:27.311] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:27.311] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:27.311] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:27.613] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:27.614] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:27.617] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:27.617] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:27.617] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:27.910] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:27.911] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:27.913] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:27.913] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:27.913] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:28.211] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:28.212] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:28.214] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:28.215] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:28.215] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:28.515] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:28.515] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:28.703] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:28.703] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:28.703] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:28.999] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:29.000] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:35.555] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:35.555] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:35.556] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:35.854] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:35.855] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:35.856] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:25:35.856] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:25:35.856] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:25:36.156] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:25:36.157] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:25:37.969] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:25:37.970] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:25:38.543] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:25:38.544] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:26:35.644] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:26:35.645] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:26:35.645] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:26:35.951] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:26:35.951] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:26:41.535] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:26:41.535] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:26:41.536] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:26:41.845] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:26:41.846] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:26:45.320] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:26:45.321] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:26:45.861] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:26:45.862] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:26:50.439] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:26:50.439] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:26:50.440] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:26:50.741] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:26:50.742] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:26:50.743] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:26:50.743] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:26:50.743] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:26:51.045] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:26:51.046] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:26:51.048] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:26:51.048] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:26:51.048] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:26:51.354] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:26:51.355] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:26:51.356] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:26:51.356] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:26:51.356] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:26:51.655] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:26:51.656] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:26:51.658] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:26:51.658] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:26:51.659] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:26:51.954] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:26:51.954] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:26:51.956] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:26:51.956] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:26:51.956] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:26:52.254] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:26:52.256] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:26:52.886] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:26:52.887] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:26:52.887] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:26:53.188] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:26:53.189] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:26:53.469] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:26:53.470] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:26:53.471] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:26:53.775] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:26:53.776] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:26:53.777] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:26:53.777] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:26:53.778] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:26:54.086] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:26:54.087] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:26:54.917] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:26:54.917] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:26:54.918] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:26:55.216] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:26:55.218] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:26:55.219] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:26:55.219] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:26:55.219] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:26:55.535] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:26:55.536] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:26:56.025] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:26:56.025] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:26:56.026] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:26:56.324] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:26:56.325] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:26:58.397] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:26:58.398] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:26:58.398] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:26:58.694] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:26:58.694] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:27:25.634] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:27:25.635] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:27:26.235] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:27:26.235] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:27:34.091] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:27:34.091] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:27:34.092] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:27:34.412] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:27:34.413] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:27:34.415] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:27:34.415] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:27:34.415] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:27:34.724] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:27:34.725] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:27:34.726] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:27:34.726] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:27:34.727] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:27:35.046] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:27:35.048] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:27:50.360] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:27:50.361] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:27:50.945] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:27:50.946] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:28:04.353] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:28:04.354] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:28:04.354] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:28:04.354] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:28:04.354] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:28:04.354] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:28:04.687] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:28:04.688] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:28:04.988] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:28:04.989] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:28:06.524] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:28:06.524] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:28:06.525] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:28:06.839] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:28:06.840] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:28:06.957] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:28:06.957] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:28:06.957] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:28:07.277] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:28:07.278] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:28:07.280] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:28:07.280] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:28:07.281] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:28:07.582] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:28:07.583] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:28:09.313] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:28:09.313] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:28:09.314] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:28:09.612] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:28:09.613] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:28:12.231] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:28:12.232] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:28:12.614] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-03-29T12:28:12.615] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-03-29T12:28:12.728] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:28:12.729] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:28:20.293] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:28:20.293] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:28:20.293] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:28:20.591] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:28:20.592] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:28:21.561] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:28:21.561] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:28:21.561] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:28:21.561] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:28:21.561] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:28:21.562] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:28:21.899] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:28:21.900] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:28:22.201] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:28:22.202] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:28:22.204] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:28:22.204] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:28:22.204] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:28:22.515] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:28:22.516] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:28:23.565] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:28:23.565] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:28:23.566] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:28:23.871] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:28:23.872] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:28:31.430] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:28:31.430] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:28:31.431] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:28:31.735] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:28:31.736] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:28:31.737] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:28:31.737] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:28:31.737] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:28:32.029] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:28:32.030] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:28:33.689] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:28:33.690] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:28:34.220] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:28:34.221] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:28:35.423] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:28:35.423] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:28:35.435] [DEBUG] debug-file - bad codeSnippet [object Object]
+[2025-03-29T12:28:35.439] [DEBUG] debug-file - watch worker: worker is ready to be terminated.
+[2025-03-29T12:28:35.439] [DEBUG] debug-file - Server currently has 0 watch-worker
+[2025-03-29T12:28:36.389] [DEBUG] debug-file - session manager: set active socket. socketId=qGYZVbyKEZFMFrkKAAAN
+[2025-03-29T12:28:36.391] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-03-29T12:28:36.402] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-03-29T12:28:36.404] [DEBUG] debug-file - Cache service initialization finished in 3 ms 
+[2025-03-29T12:28:36.416] [DEBUG] debug-file - hvigorfile, resolving /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/hvigorfile.ts
+[2025-03-29T12:28:36.442] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-03-29T12:28:36.443] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-03-29T12:28:36.455] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-03-29T12:28:36.456] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-03-29T12:28:36.456] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-03-29T12:28:36.456] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-03-29T12:28:36.458] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2025-03-29T12:28:36.458] [DEBUG] debug-file - not found resModel json file in : /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/src/ohosTest/module.json5
+[2025-03-29T12:28:36.462] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-03-29T12:28:36.468] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-03-29T12:28:36.497] [DEBUG] debug-file - Sdk init in 35 ms 
+[2025-03-29T12:28:36.510] [DEBUG] debug-file - Project task initialization takes 13 ms 
+[2025-03-29T12:28:36.510] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-03-29T12:28:36.510] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/hvigorfile.ts
+[2025-03-29T12:28:36.510] [DEBUG] debug-file - hvigorfile, resolve finished /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/hvigorfile.ts
+[2025-03-29T12:28:36.515] [DEBUG] debug-file - hvigorfile, resolving /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/hvigorfile.ts
+[2025-03-29T12:28:36.517] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-03-29T12:28:36.517] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-03-29T12:28:36.528] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-03-29T12:28:36.528] [DEBUG] debug-file - Target 'default' config: {}
+[2025-03-29T12:28:36.528] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-03-29T12:28:36.529] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-03-29T12:28:36.529] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-03-29T12:28:36.529] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-03-29T12:28:36.529] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-03-29T12:28:36.533] [DEBUG] debug-file - Module entry task initialization takes 4 ms 
+[2025-03-29T12:28:36.534] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-03-29T12:28:36.534] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/hvigorfile.ts
+[2025-03-29T12:28:36.534] [DEBUG] debug-file - hvigorfile, resolve finished /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/hvigorfile.ts
+[2025-03-29T12:28:36.604] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 69 ms 
+[2025-03-29T12:28:36.604] [DEBUG] debug-file - project has submodules:entry
+[2025-03-29T12:28:36.605] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-03-29T12:28:36.607] [DEBUG] debug-file - load to the disk finished
+[2025-03-29T12:28:36.608] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-03-29T12:28:36.608] [DEBUG] debug-file - Module quickStudy Collected Dependency: 
+[2025-03-29T12:28:36.608] [DEBUG] debug-file - Module quickStudy's total dependency: 0
+[2025-03-29T12:28:36.608] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-03-29T12:28:36.608] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-03-29T12:28:36.609] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-03-29T12:28:36.610] [DEBUG] debug-file - Configuration phase cost:202 ms 
+[2025-03-29T12:28:36.611] [DEBUG] debug-file - Configuration task cost before running: 218 ms 
+[2025-03-29T12:28:36.612] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.612] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.614] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-03-29T12:28:36.616] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 2 ms .
+[2025-03-29T12:28:36.616] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.20566558837890625
+[2025-03-29T12:28:36.616] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2025-03-29T12:28:36.618] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.618] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.618] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-03-29T12:28:36.619] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 1 ms .
+[2025-03-29T12:28:36.619] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.09200286865234375
+[2025-03-29T12:28:36.619] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2025-03-29T12:28:36.620] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.620] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.621] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-03-29T12:28:36.621] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-03-29T12:28:36.621] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 1 ms .
+[2025-03-29T12:28:36.622] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.08815765380859375
+[2025-03-29T12:28:36.622] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2025-03-29T12:28:36.623] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.623] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.623] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-03-29T12:28:36.623] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.623] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.624] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.0368194580078125
+[2025-03-29T12:28:36.624] [DEBUG] debug-file - runTaskFromQueue task cost before running: 231 ms 
+[2025-03-29T12:28:36.624] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-03-29T12:28:36.625] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.625] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.627] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-03-29T12:28:36.627] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-03-29T12:28:36.627] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.03408050537109375
+[2025-03-29T12:28:36.627] [DEBUG] debug-file - runTaskFromQueue task cost before running: 234 ms 
+[2025-03-29T12:28:36.627] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 1 ms 
+[2025-03-29T12:28:36.629] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.629] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.629] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-03-29T12:28:36.630] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2025-03-29T12:28:36.630] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.04880523681640625
+[2025-03-29T12:28:36.630] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2025-03-29T12:28:36.631] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.631] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.632] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-03-29T12:28:36.634] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 2 ms .
+[2025-03-29T12:28:36.634] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.12667083740234375
+[2025-03-29T12:28:36.634] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2025-03-29T12:28:36.636] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.636] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.636] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewProcessResource
+[2025-03-29T12:28:36.638] [DEBUG] debug-file - Executing task :entry:default@PreviewProcessResource
+[2025-03-29T12:28:36.638] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.638] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.638] [DEBUG] debug-file - entry : default@PreviewProcessResource cost memory 0.0658111572265625
+[2025-03-29T12:28:36.638] [DEBUG] debug-file - runTaskFromQueue task cost before running: 245 ms 
+[2025-03-29T12:28:36.639] [INFO] debug-file - Finished :entry:default@PreviewProcessResource... after 1 ms 
+[2025-03-29T12:28:36.640] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.640] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.642] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-03-29T12:28:36.650] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 4 ms .
+[2025-03-29T12:28:36.650] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory -4.0323638916015625
+[2025-03-29T12:28:36.652] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2025-03-29T12:28:36.653] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.654] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.654] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewCompileResource
+[2025-03-29T12:28:36.655] [DEBUG] debug-file - Executing task :entry:default@PreviewCompileResource
+[2025-03-29T12:28:36.662] [DEBUG] debug-file - entry:default@PreviewCompileResource is not up-to-date, since the output file '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default' has been changed.
+[2025-03-29T12:28:36.662] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource pre-execution cost: 7 ms .
+[2025-03-29T12:28:36.716] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool',
+  '-x',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/AppScope/resources',
+  '-o',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/app_compiled'
+]
+[2025-03-29T12:28:36.717] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 508387328,
+  heapTotal: 157286400,
+  heapUsed: 113014792,
+  external: 3004889,
+  arrayBuffers: 101074
+} os memoryUsage :30.071643829345703
+[2025-03-29T12:28:36.727] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-03-29T12:28:36.729] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool',
+  '-x',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/src/main/resources',
+  '-o',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/module_compiled'
+]
+[2025-03-29T12:28:36.730] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 508387328,
+  heapTotal: 157286400,
+  heapUsed: 113292408,
+  external: 2979851,
+  arrayBuffers: 68382
+} os memoryUsage :30.071659088134766
+[2025-03-29T12:28:36.740] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-03-29T12:28:36.741] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool',
+  '-m',
+  'entry',
+  '-f',
+  '-j',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/process_profile/default/module.json',
+  '-p',
+  'c***t',
+  '-r',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/generated/r/default/ResourceTable.h',
+  '-z',
+  '--ids',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/ids_map',
+  '--defined-ids',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/ids_map/id_defined.json',
+  '-i',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/app_compiled',
+  '-i',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/module_compiled',
+  '-o',
+  '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default'
+]
+[2025-03-29T12:28:36.742] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 508387328,
+  heapTotal: 157286400,
+  heapUsed: 113539416,
+  external: 2988091,
+  arrayBuffers: 76622
+} os memoryUsage :30.071659088134766
+[2025-03-29T12:28:36.788] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-03-29T12:28:36.791] [DEBUG] debug-file - entry : default@PreviewCompileResource cost memory -8.789085388183594
+[2025-03-29T12:28:36.791] [DEBUG] debug-file - runTaskFromQueue task cost before running: 398 ms 
+[2025-03-29T12:28:36.791] [INFO] debug-file - Finished :entry:default@PreviewCompileResource... after 136 ms 
+[2025-03-29T12:28:36.793] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.793] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.793] [DEBUG] debug-file - Executing task :entry:default@PreviewHookCompileResource
+[2025-03-29T12:28:36.793] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.793] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.793] [DEBUG] debug-file - entry : default@PreviewHookCompileResource cost memory 0.03813934326171875
+[2025-03-29T12:28:36.793] [DEBUG] debug-file - runTaskFromQueue task cost before running: 400 ms 
+[2025-03-29T12:28:36.793] [INFO] debug-file - Finished :entry:default@PreviewHookCompileResource... after 1 ms 
+[2025-03-29T12:28:36.794] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.794] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.795] [DEBUG] debug-file - Executing task :entry:default@CopyPreviewProfile
+[2025-03-29T12:28:36.795] [DEBUG] debug-file - entry:default@CopyPreviewProfile is not up-to-date, since the output file '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/resources/base/profile' does not exist.
+[2025-03-29T12:28:36.795] [DEBUG] debug-file - Incremental task entry:default@CopyPreviewProfile pre-execution cost: 1 ms .
+[2025-03-29T12:28:36.795] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.795] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.797] [DEBUG] debug-file - entry : default@CopyPreviewProfile cost memory 0.19354248046875
+[2025-03-29T12:28:36.797] [DEBUG] debug-file - runTaskFromQueue task cost before running: 404 ms 
+[2025-03-29T12:28:36.797] [INFO] debug-file - Finished :entry:default@CopyPreviewProfile... after 3 ms 
+[2025-03-29T12:28:36.799] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.799] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.799] [DEBUG] debug-file - Executing task :entry:default@ReplacePreviewerPage
+[2025-03-29T12:28:36.799] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.799] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.799] [DEBUG] debug-file - entry : default@ReplacePreviewerPage cost memory 0.0380859375
+[2025-03-29T12:28:36.800] [DEBUG] debug-file - runTaskFromQueue task cost before running: 407 ms 
+[2025-03-29T12:28:36.800] [INFO] debug-file - Finished :entry:default@ReplacePreviewerPage... after 1 ms 
+[2025-03-29T12:28:36.801] [DEBUG] debug-file - Executing task :entry:buildPreviewerResource
+[2025-03-29T12:28:36.801] [DEBUG] debug-file - entry : buildPreviewerResource cost memory 0.01171875
+[2025-03-29T12:28:36.801] [DEBUG] debug-file - runTaskFromQueue task cost before running: 408 ms 
+[2025-03-29T12:28:36.801] [INFO] debug-file - Finished :entry:buildPreviewerResource... after 1 ms 
+[2025-03-29T12:28:36.802] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.802] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.803] [DEBUG] debug-file - Executing task :entry:default@PreviewUpdateAssets
+[2025-03-29T12:28:36.803] [DEBUG] debug-file - entry:default@PreviewUpdateAssets is not up-to-date, since the output file '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/module.json' has been changed.
+[2025-03-29T12:28:36.803] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets pre-execution cost: 1 ms .
+[2025-03-29T12:28:36.803] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.803] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.804] [DEBUG] debug-file - entry : default@PreviewUpdateAssets cost memory 0.12288665771484375
+[2025-03-29T12:28:36.804] [DEBUG] debug-file - runTaskFromQueue task cost before running: 411 ms 
+[2025-03-29T12:28:36.804] [INFO] debug-file - Finished :entry:default@PreviewUpdateAssets... after 2 ms 
+[2025-03-29T12:28:36.805] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-29T12:28:36.806] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-29T12:28:36.809] [DEBUG] debug-file - Executing task :entry:default@PreviewArkTS
+[2025-03-29T12:28:36.812] [DEBUG] debug-file - entry:default@PreviewArkTS is not up-to-date, since the input file '/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/ResourceTable.txt' has been changed.
+[2025-03-29T12:28:36.813] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS pre-execution cost: 2 ms .
+[2025-03-29T12:28:36.820] [DEBUG] debug-file - session manager: binding session. socketId=qGYZVbyKEZFMFrkKAAAN, threadId=1@6.
+[2025-03-29T12:28:36.821] [DEBUG] debug-file - entry : default@PreviewArkTS cost memory 0.8736343383789062
+[2025-03-29T12:28:38.733] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:28:38.734] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:28:43.937] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:28:43.938] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T12:28:43.939] [DEBUG] debug-file - Ark compile finished.
+[2025-03-29T12:28:43.941] [INFO] debug-file - Finished :entry:default@PreviewArkTS... after 7 s 132 ms 
+[2025-03-29T12:28:43.942] [DEBUG] debug-file - Executing task :entry:PreviewBuild
+[2025-03-29T12:28:43.942] [DEBUG] debug-file - entry : PreviewBuild cost memory 0.01158905029296875
+[2025-03-29T12:28:43.942] [DEBUG] debug-file - runTaskFromQueue task cost before running: 7 s 549 ms 
+[2025-03-29T12:28:43.942] [INFO] debug-file - Finished :entry:PreviewBuild... after 1 ms 
+[2025-03-29T12:28:43.944] [DEBUG] debug-file - BUILD SUCCESSFUL in 7 s 551 ms 
+[2025-03-29T12:28:43.944] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2025-03-29T12:28:43.944] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2025-03-29T12:28:43.944] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2025-03-29T12:28:43.944] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/loader/default/pkgContextInfo.json cache.
+[2025-03-29T12:28:43.945] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-03-29T12:28:43.945] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2025-03-29T12:28:43.945] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2025-03-29T12:28:43.945] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2025-03-29T12:28:43.945] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/src/main/resources cache by regenerate.
+[2025-03-29T12:28:43.947] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/merge_profile/default/module.json cache by regenerate.
+[2025-03-29T12:28:43.947] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default cache.
+[2025-03-29T12:28:43.949] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/generated/r/default cache.
+[2025-03-29T12:28:43.949] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource post-execution cost:5 ms .
+[2025-03-29T12:28:43.949] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile input file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/src/main/resources/base/profile cache by regenerate.
+[2025-03-29T12:28:43.949] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile output file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/resources/base/profile cache.
+[2025-03-29T12:28:43.950] [DEBUG] debug-file - Incremental task entry:default@CopyPreviewProfile post-execution cost:1 ms .
+[2025-03-29T12:28:43.950] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/module.json cache.
+[2025-03-29T12:28:43.950] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/resources/base/profile/main_pages.json cache.
+[2025-03-29T12:28:43.950] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets post-execution cost:1 ms .
+[2025-03-29T12:28:43.951] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/loader/default cache by regenerate.
+[2025-03-29T12:28:43.951] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/ResourceTable.txt cache from map.
+[2025-03-29T12:28:43.951] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/process_profile/default/module.json cache by regenerate.
+[2025-03-29T12:28:43.951] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/res/default/resources/base/profile cache by regenerate.
+[2025-03-29T12:28:43.951] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/src/main/ets cache by regenerate.
+[2025-03-29T12:28:43.952] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/generated/profile/default/BuildProfile.ets cache by regenerate.
+[2025-03-29T12:28:43.952] [DEBUG] debug-file - Update task entry:default@PreviewArkTS output file:/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/.preview/default/intermediates/loader_out/default/ets cache.
+[2025-03-29T12:28:43.952] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS post-execution cost:2 ms .
+[2025-03-29T12:28:43.963] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2025-03-29T12:28:43.964] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-03-29T12:29:03.545] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:29:03.546] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:29:03.546] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:29:04.385] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:29:04.386] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:29:04.387] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-03-29T12:29:04.388] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T12:29:04.388] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-03-29T12:29:04.693] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-03-29T12:29:04.694] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-03-29T12:29:06.805] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-03-29T12:29:06.806] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-03-29T12:29:07.569] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-03-29T12:29:07.570] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult

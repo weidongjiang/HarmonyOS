@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47799388-4f46-4fa5-882f-d761278700ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/enablement_pic2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/enablement_pic3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/enablement_pic4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/enablement_pic5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/enablement_pic6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/enablement_pic7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/enablement_pic8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/tutorial_pic1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/tutorial_pic10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/tutorial_pic11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/tutorial_pic12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/tutorial_pic2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/tutorial_pic3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/tutorial_pic4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/tutorial_pic5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/tutorial_pic6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/tutorial_pic7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/tutorial_pic8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/tutorial_pic9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.hvigor/outputs/build-logs/build.log" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/outputs/build-logs/build.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/ResourceTable.txt" beforeDir="false" afterPath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/ResourceTable.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/entry/src/main/ets/pages/Index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/entry/src/main/ets/pages/Index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/filesInfo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/filesInfo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/modules.cache" beforeDir="false" afterPath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/modules.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/ResourceTable.txt" beforeDir="false" afterPath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/ResourceTable.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/ids_map/id_defined.json" beforeDir="false" afterPath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/ids_map/id_defined.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module.json" beforeDir="false" afterPath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/resources.index" beforeDir="false" afterPath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/resources.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/resources/base/profile/backup_config.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/entry/src/main/ets/pages/Index.ets" beforeDir="false" afterPath="$PROJECT_DIR$/entry/src/main/ets/pages/Index.ets" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
