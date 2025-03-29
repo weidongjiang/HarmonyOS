@@ -4,8 +4,7 @@
     <list default="true" id="47799388-4f46-4fa5-882f-d761278700ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.hvigor/outputs/build-logs/build.log" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/outputs/build-logs/build.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/entry/src/main/ets/pages/Index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/entry/src/main/ets/pages/Index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entry/src/main/ets/pages/Index.ets" beforeDir="false" afterPath="$PROJECT_DIR$/entry/src/main/ets/pages/Index.ets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/compiler.cache/plugins/plugins.msgpack" beforeDir="false" afterPath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/compiler.cache/plugins/plugins.msgpack" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;ace.nodejs.version&quot;: &quot;18.20.1&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/src/main/resources/base/media&quot;
+    &quot;last_opened_file_path&quot;: &quot;/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/src/main/resources/base/media&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">

@@ -7881,3 +7881,131 @@
 [2025-03-29T12:29:06.806] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
 [2025-03-29T12:29:07.569] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
 [2025-03-29T12:29:07.570] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-03-29T13:37:39.420] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T13:37:39.420] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T13:37:39.428] [DEBUG] debug-file - bad codeSnippet [object Object]
+[2025-03-29T13:37:39.430] [DEBUG] debug-file - watch worker: worker is ready to be terminated.
+[2025-03-29T13:37:39.430] [DEBUG] debug-file - Server currently has 0 watch-worker
+[2025-03-29T13:44:06.633] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2025-03-29T13:44:06.634] [DEBUG] debug-file - java daemon started at port 45050 pid 44608
+[2025-03-29T13:44:06.166] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-03-29T13:44:06.198] [DEBUG] debug-file - env: daemon=true
+[2025-03-29T13:44:06.168] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2025-03-29T13:44:06.699] [DEBUG] debug-file - session manager: set active socket. socketId=QWkHFcM57CPoskYGAAAB
+[2025-03-29T13:44:07.201] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-03-29T13:44:07.217] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-03-29T13:44:07.223] [DEBUG] debug-file - Cache service initialization finished in 6 ms 
+[2025-03-29T13:44:07.234] [DEBUG] debug-file - hvigorfile, resolving /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/hvigorfile.ts
+[2025-03-29T13:44:08.502] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-03-29T13:44:08.503] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-03-29T13:44:08.707] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-03-29T13:44:08.707] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-03-29T13:44:08.708] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-03-29T13:44:08.708] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-03-29T13:44:08.711] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2025-03-29T13:44:08.713] [DEBUG] debug-file - not found resModel json file in : /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/src/ohosTest/module.json5
+[2025-03-29T13:44:08.722] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-03-29T13:44:08.727] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-03-29T13:44:08.730] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-03-29T13:44:08.735] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-03-29T13:44:08.770] [DEBUG] debug-file - Sdk init in 46 ms 
+[2025-03-29T13:44:08.789] [DEBUG] debug-file - Project task initialization takes 18 ms 
+[2025-03-29T13:44:08.789] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-03-29T13:44:08.789] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/hvigorfile.ts
+[2025-03-29T13:44:08.789] [DEBUG] debug-file - hvigorfile, resolve finished /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/hvigorfile.ts
+[2025-03-29T13:44:08.795] [DEBUG] debug-file - hvigorfile, resolving /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/hvigorfile.ts
+[2025-03-29T13:44:08.800] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-03-29T13:44:08.801] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-03-29T13:44:08.812] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-03-29T13:44:08.813] [DEBUG] debug-file - Target 'default' config: {}
+[2025-03-29T13:44:08.813] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-03-29T13:44:08.813] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-03-29T13:44:08.813] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-03-29T13:44:08.813] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-03-29T13:44:08.814] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-03-29T13:44:08.821] [DEBUG] debug-file - Module entry task initialization takes 6 ms 
+[2025-03-29T13:44:08.821] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-03-29T13:44:08.821] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/hvigorfile.ts
+[2025-03-29T13:44:08.821] [DEBUG] debug-file - hvigorfile, resolve finished /Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy/entry/hvigorfile.ts
+[2025-03-29T13:44:08.901] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 79 ms 
+[2025-03-29T13:44:08.902] [DEBUG] debug-file - project has submodules:entry
+[2025-03-29T13:44:08.904] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-03-29T13:44:08.908] [DEBUG] debug-file - load to the disk finished
+[2025-03-29T13:44:08.908] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-03-29T13:44:08.910] [DEBUG] debug-file - Module quickStudy Collected Dependency: 
+[2025-03-29T13:44:08.910] [DEBUG] debug-file - Module quickStudy's total dependency: 0
+[2025-03-29T13:44:08.911] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-03-29T13:44:08.912] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-03-29T13:44:08.912] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-03-29T13:44:08.917] [DEBUG] debug-file - Configuration phase cost:1 s 689 ms 
+[2025-03-29T13:44:08.920] [DEBUG] debug-file - Configuration task cost before running: 1 s 715 ms 
+[2025-03-29T13:44:08.920] [DEBUG] debug-file - Executing task :entry:init
+[2025-03-29T13:44:08.921] [DEBUG] debug-file - entry : init cost memory 0.0155487060546875
+[2025-03-29T13:44:08.921] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 716 ms 
+[2025-03-29T13:44:08.921] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2025-03-29T13:44:08.922] [DEBUG] debug-file - Executing task ::init
+[2025-03-29T13:44:08.922] [DEBUG] debug-file - quickStudy : init cost memory 0.01282501220703125
+[2025-03-29T13:44:08.922] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 717 ms 
+[2025-03-29T13:44:08.922] [INFO] debug-file - Finished ::init... after 1 ms 
+[2025-03-29T13:44:08.929] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-03-29T13:44:08.933] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "name": "default"
+} in this build.
+[2025-03-29T13:44:08.938] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-03-29T13:44:08.938] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-03-29T13:44:08.939] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-03-29T13:44:08.942] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-03-29T13:44:08.944] [DEBUG] debug-file - Cleanup worker 0.
+[2025-03-29T13:44:08.944] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2025-03-29T13:44:08.944] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-03-29T13:44:08.944] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-03-29T13:44:08.944] [DEBUG] debug-file - Cleanup worker 1.
+[2025-03-29T13:44:08.944] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2025-03-29T13:44:08.944] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-03-29T13:44:08.944] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-03-29T13:44:08.945] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-03-29T13:44:09.086] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-03-29T13:44:09.087] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2025-03-29T13:44:09.108] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T13:44:09.108] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-29T13:44:09.108] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-03-29T13:44:09.108] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
