@@ -71,5 +71,17 @@
 			"type":	"media",
 			"name":	"banner_pic2",
 			"id":	"0x01000011"
+		}, {
+			"type":	"media",
+			"name":	"enablement_pic1",
+			"id":	"0x01000012"
+		}, {
+			"type":	"string",
+			"name":	"EnablementItemTitle",
+			"id":	"0x01000014"
+		}, {
+			"type":	"string",
+			"name":	"EnablementItemBrief",
+			"id":	"0x01000015"
 		}]
 }

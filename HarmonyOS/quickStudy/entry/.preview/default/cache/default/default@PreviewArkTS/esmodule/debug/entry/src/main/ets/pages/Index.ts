@@ -1,6 +1,12 @@
 if (!("finalizeConstruction" in ViewPU.prototype)) {
     Reflect.set(ViewPU.prototype, "finalizeConstruction", () => { });
 }
+interface TutorialItem_Params {
+    title?: string;
+    brief?: string;
+}
+interface EnablementItem_Params {
+}
 interface Banner_Params {
     bannerList?: Array<BannerClass>;
 }
@@ -84,6 +90,36 @@ class Index extends ViewPU {
                 }
             }, { name: "Banner" });
         }
+        {
+            this.observeComponentCreation2((elmtId, isInitialRender) => {
+                if (isInitialRender) {
+                    let componentCall = new EnablementItem(this, {}, undefined, elmtId, () => { }, { page: "entry/src/main/ets/pages/Index.ets", line: 29, col: 7 });
+                    ViewPU.create(componentCall);
+                    let paramsLambda = () => {
+                        return {};
+                    };
+                    componentCall.paramsGenerator_ = paramsLambda;
+                }
+                else {
+                    this.updateStateVarsOfChildByElmtId(elmtId, {});
+                }
+            }, { name: "EnablementItem" });
+        }
+        {
+            this.observeComponentCreation2((elmtId, isInitialRender) => {
+                if (isInitialRender) {
+                    let componentCall = new TutorialItem(this, {}, undefined, elmtId, () => { }, { page: "entry/src/main/ets/pages/Index.ets", line: 30, col: 7 });
+                    ViewPU.create(componentCall);
+                    let paramsLambda = () => {
+                        return {};
+                    };
+                    componentCall.paramsGenerator_ = paramsLambda;
+                }
+                else {
+                    this.updateStateVarsOfChildByElmtId(elmtId, {});
+                }
+            }, { name: "TutorialItem" });
+        }
         Column.pop();
     }
     rerender() {
@@ -135,7 +171,7 @@ class Banner extends ViewPU {
     initialRender() {
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Swiper.create();
-            Swiper.debugLine("entry/src/main/ets/pages/Index.ets(55:5)", "entry");
+            Swiper.debugLine("entry/src/main/ets/pages/Index.ets(57:5)", "entry");
             Swiper.autoPlay(true);
             Swiper.loop(true);
             Swiper.indicator(new DotIndicator()
@@ -148,7 +184,7 @@ class Banner extends ViewPU {
                 const item = _item;
                 this.observeComponentCreation2((elmtId, isInitialRender) => {
                     Image.create(item.imageSrc);
-                    Image.debugLine("entry/src/main/ets/pages/Index.ets(57:9)", "entry");
+                    Image.debugLine("entry/src/main/ets/pages/Index.ets(59:9)", "entry");
                     Image.objectFit(ImageFit.Contain);
                     Image.width('100%');
                     Image.padding({ top: 11, left: 16, right: 16 });
@@ -164,8 +200,185 @@ class Banner extends ViewPU {
         this.updateDirtyElements();
     }
 }
+class EnablementItem extends ViewPU {
+    constructor(parent, params, __localStorage, elmtId = -1, paramsLambda = undefined, extraInfo) {
+        super(parent, __localStorage, elmtId, extraInfo);
+        if (typeof paramsLambda === "function") {
+            this.paramsGenerator_ = paramsLambda;
+        }
+        this.setInitiallyProvidedValue(params);
+        this.finalizeConstruction();
+    }
+    setInitiallyProvidedValue(params: EnablementItem_Params) {
+    }
+    updateStateVars(params: EnablementItem_Params) {
+    }
+    purgeVariableDependenciesOnElmtId(rmElmtId) {
+    }
+    aboutToBeDeleted() {
+        SubscriberManager.Get().delete(this.id__());
+        this.aboutToBeDeletedInternal();
+    }
+    initialRender() {
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Column.create();
+            Column.debugLine("entry/src/main/ets/pages/Index.ets(79:5)", "entry");
+            Column.width(160);
+            Column.height(169);
+            Column.borderRadius(16);
+            Column.backgroundColor(Color.White);
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Image.create({ "id": 16777234, "type": 20000, params: [], "bundleName": "com.huawei.quickstart", "moduleName": "entry" });
+            Image.debugLine("entry/src/main/ets/pages/Index.ets(80:7)", "entry");
+            Image.width('100%');
+            Image.objectFit(ImageFit.Cover);
+            Image.height(96);
+            Image.borderRadius({
+                topLeft: 16,
+                topRight: 16
+            });
+        }, Image);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create({ "id": 16777236, "type": 10003, params: [], "bundleName": "com.huawei.quickstart", "moduleName": "entry" });
+            Text.debugLine("entry/src/main/ets/pages/Index.ets(88:7)", "entry");
+            Text.height(19);
+            Text.width('100%');
+            Text.fontSize(14);
+            Text.textAlign(TextAlign.Start);
+            Text.textOverflow({
+                overflow: TextOverflow.Ellipsis
+            });
+            Text.maxLines(1);
+            Text.fontWeight(400);
+            Text.padding({
+                left: 12,
+                right: 12
+            });
+            Text.margin({
+                top: 8
+            });
+        }, Text);
+        Text.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create({ "id": 16777237, "type": 10003, params: [], "bundleName": "com.huawei.quickstart", "moduleName": "entry" });
+            Text.debugLine("entry/src/main/ets/pages/Index.ets(105:7)", "entry");
+            Text.width('100%');
+            Text.height(32);
+            Text.fontSize(12);
+            Text.textAlign(TextAlign.Start);
+            Text.textOverflow({ overflow: TextOverflow.Ellipsis });
+            Text.maxLines(2);
+            Text.fontWeight(400);
+            Text.padding({
+                left: 12,
+                right: 12
+            });
+            Text.margin({
+                top: 4
+            });
+            Text.fontColor('rgba(0,0,0,0.6)');
+        }, Text);
+        Text.pop();
+        Column.pop();
+    }
+    rerender() {
+        this.updateDirtyElements();
+    }
+}
+class TutorialItem extends ViewPU {
+    constructor(parent, params, __localStorage, elmtId = -1, paramsLambda = undefined, extraInfo) {
+        super(parent, __localStorage, elmtId, extraInfo);
+        if (typeof paramsLambda === "function") {
+            this.paramsGenerator_ = paramsLambda;
+        }
+        this.title = 'Step1 快速入门介绍';
+        this.brief = '本篇教程实现了快速入门——一个用于了解和学习HarmonyOS的应用程序 。';
+        this.setInitiallyProvidedValue(params);
+        this.finalizeConstruction();
+    }
+    setInitiallyProvidedValue(params: TutorialItem_Params) {
+        if (params.title !== undefined) {
+            this.title = params.title;
+        }
+        if (params.brief !== undefined) {
+            this.brief = params.brief;
+        }
+    }
+    updateStateVars(params: TutorialItem_Params) {
+    }
+    purgeVariableDependenciesOnElmtId(rmElmtId) {
+    }
+    aboutToBeDeleted() {
+        SubscriberManager.Get().delete(this.id__());
+        this.aboutToBeDeletedInternal();
+    }
+    private title: string;
+    private brief: string;
+    initialRender() {
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Row.create();
+            Row.debugLine("entry/src/main/ets/pages/Index.ets(136:5)", "entry");
+            Row.height(88);
+            Row.width('100%');
+            Row.borderRadius(16);
+            Row.backgroundColor(Color.White);
+            Row.padding(12);
+            Row.alignItems(VerticalAlign.Top);
+        }, Row);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Column.create();
+            Column.debugLine("entry/src/main/ets/pages/Index.ets(137:7)", "entry");
+            Column.height('100%');
+            Column.layoutWeight(1);
+            Column.alignItems(HorizontalAlign.Start);
+            Column.margin({ right: 12 });
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create(this.title);
+            Text.debugLine("entry/src/main/ets/pages/Index.ets(138:9)", "entry");
+            Text.height(19);
+            Text.width('100%');
+            Text.fontSize(14);
+            Text.textAlign(TextAlign.Start);
+            Text.textOverflow({ overflow: TextOverflow.Ellipsis });
+            Text.maxLines(1);
+            Text.fontWeight(400);
+            Text.margin({
+                top: 4
+            });
+        }, Text);
+        Text.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create(this.brief);
+            Text.debugLine("entry/src/main/ets/pages/Index.ets(149:9)", "entry");
+            Text.height(32);
+            Text.width('100%');
+            Text.fontSize(12);
+            Text.textAlign(TextAlign.Start);
+            Text.textOverflow({ overflow: TextOverflow.Ellipsis });
+            Text.maxLines(2);
+            Text.fontWeight(400);
+            Text.margin({ top: 4 });
+        }, Text);
+        Text.pop();
+        Column.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Image.create({ "id": 16777234, "type": 20000, params: [], "bundleName": "com.huawei.quickstart", "moduleName": "entry" });
+            Image.debugLine("entry/src/main/ets/pages/Index.ets(164:7)", "entry");
+            Image.objectFit(ImageFit.Cover);
+            Image.height(64);
+            Image.width(108);
+            Image.borderRadius(16);
+        }, Image);
+        Row.pop();
+    }
+    rerender() {
+        this.updateDirtyElements();
+    }
+}
 if (getPreviewComponentFlag()) {
-    storePreviewComponents(1, "Banner", new Banner(undefined, {}));
+    storePreviewComponents(3, "Banner", new Banner(undefined, {}), "EnablementItem", new EnablementItem(undefined, {}), "TutorialItem", new TutorialItem(undefined, {}));
     previewComponent();
 }
 else {
