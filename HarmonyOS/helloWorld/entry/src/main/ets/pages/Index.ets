@@ -1,5 +1,4 @@
 import { router } from '@kit.ArkUI';
-import { url } from '@kit.ArkTS';
 import { BusinessError } from '@kit.BasicServicesKit';
 
 @Entry
@@ -37,7 +36,7 @@ struct Index {
         router.pushUrl({ url: 'pages/Second' }).then(() => {
           console.log('Succeeded in jumping to the second page')
         }).catch((err: BusinessError) => {
-          console.error(' Code is ${err.code}, message is ${err.message}')
+          console.error(' Code is '+ err.code + ' message is ' + err.message)
         })
       })
     }

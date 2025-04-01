@@ -24,6 +24,16 @@ class ArticleClass {
     this.brief = brief;
     this.webUrl = webUrl;
   }
+
+  funClass(num: number) {
+
+  }
+}
+
+class ArticleClassA extends ArticleClass {
+  funClass(num: number): void {
+    super.funClass(num);
+  }
 }
 
 @Entry
