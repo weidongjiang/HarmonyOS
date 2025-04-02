@@ -1,0 +1,1784 @@
+[2025-04-01T23:16:10.909] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-04-01T23:16:11.344] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-04-01T23:16:11.358] [DEBUG] debug-file - hvigorfile, resolving /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/hvigorfile.ts
+[2025-04-01T23:16:12.499] [DEBUG] debug-file - hvigorfile, require result:  { appTasks: [Getter] }
+[2025-04-01T23:16:12.710] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-04-01T23:16:12.714] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2025-04-01T23:16:12.725] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-04-01T23:16:12.721] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-04-01T23:16:12.731] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-04-01T23:16:12.768] [DEBUG] debug-file - Sdk init in 50 ms 
+[2025-04-01T23:16:12.788] [DEBUG] debug-file - Project task initialization takes 18 ms 
+[2025-04-01T23:16:12.794] [DEBUG] debug-file - hvigorfile, resolving /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/hvigorfile.ts
+[2025-04-01T23:16:12.809] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-04-01T23:16:12.821] [DEBUG] debug-file - Module entry task initialization takes 7 ms 
+[2025-04-01T23:16:12.824] [DEBUG] debug-file - project has submodules:entry
+[2025-04-01T23:16:12.841] [DEBUG] debug-file - Configuration task cost before running: 1 s 511 ms 
+[2025-04-01T23:16:12.843] [DEBUG] debug-file - Executing task :entry:clean
+[2025-04-01T23:16:12.846] [DEBUG] debug-file - entry : clean cost memory 0.21039581298828125
+[2025-04-01T23:16:12.854] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+} in this build.
+[2025-04-01T23:16:10.911] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.0', dependencies: {} }
+[2025-04-01T23:16:11.345] [DEBUG] debug-file - Since current hvigor version 5.16.2 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2025-04-01T23:16:12.499] [DEBUG] debug-file - hvigorfile, binding system plugins { appTasks: [Getter] }
+[2025-04-01T23:16:12.710] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-04-01T23:16:12.717] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-04-01T23:16:12.788] [DEBUG] debug-file - hvigorfile, resolve finished /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/hvigorfile.ts
+[2025-04-01T23:16:12.800] [DEBUG] debug-file - hvigorfile, require result:  { hapTasks: [Getter] }
+[2025-04-01T23:16:12.810] [DEBUG] debug-file - Target 'default' config: {}
+[2025-04-01T23:16:12.821] [DEBUG] debug-file - hvigorfile, resolve finished /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/hvigorfile.ts
+[2025-04-01T23:16:12.826] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-04-01T23:16:12.844] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2025-04-01T23:16:12.846] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 516 ms 
+[2025-04-01T23:16:12.856] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+} in this build.
+[2025-04-01T23:16:12.869] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-04-01T23:16:10.913] [DEBUG] debug-file - env: daemon=false
+[2025-04-01T23:16:11.345] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2025-04-01T23:16:12.711] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-04-01T23:16:12.800] [DEBUG] debug-file - hvigorfile, binding system plugins { hapTasks: [Getter] }
+[2025-04-01T23:16:12.811] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-04-01T23:16:12.828] [DEBUG] debug-file - load to the disk finished
+[2025-04-01T23:16:12.847] [INFO] debug-file - Finished :entry:clean... after 3 ms 
+[2025-04-01T23:16:12.867] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-04-01T23:16:12.871] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-04-01T23:16:10.913] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--expose-gc
+[2025-04-01T23:16:12.711] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-04-01T23:16:12.812] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+}
+[2025-04-01T23:16:12.828] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-04-01T23:16:12.848] [DEBUG] debug-file - Executing task ::clean
+[2025-04-01T23:16:12.867] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-04-01T23:16:12.873] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2025-04-01T23:16:12.812] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+}
+[2025-04-01T23:16:12.831] [DEBUG] debug-file - Module Login Collected Dependency: 
+[2025-04-01T23:16:12.848] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2025-04-01T23:16:12.873] [DEBUG] debug-file - Clear worker 0.
+[2025-04-01T23:16:12.812] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-04-01T23:16:12.831] [DEBUG] debug-file - Module Login's total dependency: 0
+[2025-04-01T23:16:12.848] [DEBUG] debug-file - Login : clean cost memory 0.02457427978515625
+[2025-04-01T23:16:12.873] [DEBUG] debug-file - Worker 0 has been cleared.
+[2025-04-01T23:16:12.812] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+} in this build.
+[2025-04-01T23:16:12.832] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-04-01T23:16:12.848] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 518 ms 
+[2025-04-01T23:16:12.873] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-04-01T23:16:12.834] [DEBUG] debug-file - Module entry Collected Dependency: /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/cpp/types/libentry
+[2025-04-01T23:16:12.848] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2025-04-01T23:16:12.873] [DEBUG] debug-file - Current busy worker size: 0.
+[2025-04-01T23:16:12.834] [DEBUG] debug-file - Module entry's total dependency: 1
+[2025-04-01T23:16:12.848] [DEBUG] debug-file - Executing task :entry:init
+[2025-04-01T23:16:12.873] [DEBUG] debug-file - Clear worker 1.
+[2025-04-01T23:16:12.838] [DEBUG] debug-file - Configuration phase cost:1 s 488 ms 
+[2025-04-01T23:16:12.849] [DEBUG] debug-file - entry : init cost memory 0.01019287109375
+[2025-04-01T23:16:12.873] [DEBUG] debug-file - Worker 1 has been cleared.
+[2025-04-01T23:16:12.849] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 519 ms 
+[2025-04-01T23:16:12.873] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-04-01T23:16:12.849] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2025-04-01T23:16:12.873] [DEBUG] debug-file - Current busy worker size: 0.
+[2025-04-01T23:16:12.849] [DEBUG] debug-file - Executing task ::init
+[2025-04-01T23:16:12.874] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-04-01T23:16:12.849] [DEBUG] debug-file - Login : init cost memory 0.00897216796875
+[2025-04-01T23:16:12.881] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-04-01T23:16:12.849] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 519 ms 
+[2025-04-01T23:16:12.881] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2025-04-01T23:16:12.849] [INFO] debug-file - Finished ::init... after 1 ms 
+[2025-04-01T23:16:12.882] [DEBUG] debug-file - Current worker pool is terminated.
+[2025-04-01T23:16:13.657] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-04-01T23:16:13.690] [DEBUG] debug-file - env: daemon=true
+[2025-04-01T23:16:13.659] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.0', dependencies: {} }
+[2025-04-01T23:16:14.170] [DEBUG] debug-file - java daemon tryConnect success
+[2025-04-01T23:16:14.190] [DEBUG] debug-file - session manager: set active socket. socketId=Rv48m31Gk26ONOLLAAAB
+[2025-04-01T23:16:14.840] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-04-01T23:16:14.855] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-04-01T23:16:14.857] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2025-04-01T23:16:14.867] [DEBUG] debug-file - hvigorfile, resolving /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/hvigorfile.ts
+[2025-04-01T23:16:16.039] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-04-01T23:16:16.040] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-04-01T23:16:16.268] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-04-01T23:16:16.268] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-04-01T23:16:16.269] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-04-01T23:16:16.269] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-04-01T23:16:16.272] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2025-04-01T23:16:16.274] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-04-01T23:16:16.277] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-04-01T23:16:16.280] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-04-01T23:16:16.284] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-04-01T23:16:16.321] [DEBUG] debug-file - Sdk init in 46 ms 
+[2025-04-01T23:16:16.342] [DEBUG] debug-file - Project task initialization takes 17 ms 
+[2025-04-01T23:16:16.342] [DEBUG] debug-file - hvigorfile, resolve finished /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/hvigorfile.ts
+[2025-04-01T23:16:16.347] [DEBUG] debug-file - hvigorfile, resolving /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/hvigorfile.ts
+[2025-04-01T23:16:16.352] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-04-01T23:16:16.352] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-04-01T23:16:16.360] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-04-01T23:16:16.361] [DEBUG] debug-file - Target 'default' config: {}
+[2025-04-01T23:16:16.361] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-04-01T23:16:16.362] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+}
+[2025-04-01T23:16:16.362] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+}
+[2025-04-01T23:16:16.362] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-04-01T23:16:16.362] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+} in this build.
+[2025-04-01T23:16:16.369] [DEBUG] debug-file - Module entry task initialization takes 5 ms 
+[2025-04-01T23:16:16.369] [DEBUG] debug-file - hvigorfile, resolve finished /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/hvigorfile.ts
+[2025-04-01T23:16:16.458] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 88 ms 
+[2025-04-01T23:16:16.459] [DEBUG] debug-file - project has submodules:entry
+[2025-04-01T23:16:16.461] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-04-01T23:16:16.465] [DEBUG] debug-file - load to the disk finished
+[2025-04-01T23:16:16.466] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-04-01T23:16:16.469] [DEBUG] debug-file - Module Login Collected Dependency: 
+[2025-04-01T23:16:16.469] [DEBUG] debug-file - Module Login's total dependency: 0
+[2025-04-01T23:16:16.470] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-04-01T23:16:16.471] [DEBUG] debug-file - Module entry Collected Dependency: /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/cpp/types/libentry
+[2025-04-01T23:16:16.471] [DEBUG] debug-file - Module entry's total dependency: 1
+[2025-04-01T23:16:16.476] [DEBUG] debug-file - Configuration phase cost:1 s 616 ms 
+[2025-04-01T23:16:16.479] [DEBUG] debug-file - Configuration task cost before running: 1 s 635 ms 
+[2025-04-01T23:16:16.481] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:16.481] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:16.481] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:16.484] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-04-01T23:16:16.487] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:16.487] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:16.487] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:16.622] [DEBUG] debug-file - current product is not Atomic service.
+[2025-04-01T23:16:16.623] [DEBUG] debug-file - Use tool [darwin: JAVA_HOME, CLASSPATH]
+ [
+  {
+    JAVA_HOME: '/Applications/DevEco-Studio.app/Contents/jbr/Contents/Home'
+  },
+  { CLASSPATH: undefined }
+]
+[2025-04-01T23:16:16.623] [DEBUG] debug-file - Use tool [darwin: NODE_HOME]
+ [
+  {
+    NODE_HOME: '/Applications/DevEco-Studio.app/Contents/tools/node/bin'
+  }
+]
+[2025-04-01T23:16:16.623] [DEBUG] debug-file - entry : default@PreBuild cost memory 4.838409423828125
+[2025-04-01T23:16:16.624] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 780 ms 
+[2025-04-01T23:16:16.625] [INFO] debug-file - Finished :entry:default@PreBuild... after 140 ms 
+[2025-04-01T23:16:16.626] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:16.626] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:16.626] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:16.626] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2025-04-01T23:16:16.627] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:16.627] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:16.627] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:16.808] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 3.4715652465820312
+[2025-04-01T23:16:16.809] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 965 ms 
+[2025-04-01T23:16:16.809] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 183 ms 
+[2025-04-01T23:16:16.810] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:16.810] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:16.810] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:16.811] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2025-04-01T23:16:16.811] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:16.811] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:16.811] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:16.814] [DEBUG] debug-file - Use tool [Cmake]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/build-tools/cmake/bin/cmake',
+  '-H/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/cpp',
+  '-B/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/arm64-v8a',
+  '-DOHOS_ARCH=arm64-v8a',
+  '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/arm64-v8a',
+  '-DCMAKE_BUILD_TYPE=Debug',
+  '-DOHOS_SDK_NATIVE=/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native',
+  '-DCMAKE_SYSTEM_NAME=OHOS',
+  '-DCMAKE_OHOS_ARCH_ABI=arm64-v8a',
+  '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON',
+  '-DCMAKE_TOOLCHAIN_FILE=/Applications/DevEco-Studio.app/Contents/sdk/default/hms/native/build/cmake/hmos.toolchain.cmake',
+  '-GNinja',
+  '-DCMAKE_MAKE_PROGRAM=/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/build-tools/cmake/bin/ninja',
+  '-DCMAKE_FIND_ROOT_PATH=/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/hvigor/arm64-v8a',
+  '-DPACKAGE_FIND_FILE=/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/hvigor/arm64-v8a/summary.cmake',
+  '--no-warn-unused-cli',
+  '-DHMOS_SDK_NATIVE=/Applications/DevEco-Studio.app/Contents/sdk/default/hms/native'
+]
+[2025-04-01T23:16:16.817] [DEBUG] debug-file - Clean CMakeCache.txt due to outdated CMake configuration.
+[2025-04-01T23:16:16.818] [DEBUG] debug-file - - no fingerprint file, will remove stale cache CMakeCache.txt
+[2025-04-01T23:16:16.819] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-04-01T23:16:16.819] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-04-01T23:16:16.820] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-04-01T23:16:16.822] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-04-01T23:16:16.825] [DEBUG] debug-file - default@BuildNativeWithCmake work[0] is submitted.
+[2025-04-01T23:16:16.827] [DEBUG] debug-file - default@BuildNativeWithCmake work[0] is pushed to ready queue.
+[2025-04-01T23:16:16.828] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-04-01T23:16:16.828] [DEBUG] debug-file - Create  resident worker with id: 14.
+[2025-04-01T23:16:16.830] [DEBUG] debug-file - default@BuildNativeWithCmake work[0] has been dispatched to worker[14].
+[2025-04-01T23:16:16.830] [DEBUG] debug-file - default@BuildNativeWithCmake work[0] is dispatched.
+[2025-04-01T23:16:16.832] [DEBUG] debug-file - Use tool [Cmake]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/build-tools/cmake/bin/cmake',
+  '-H/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/cpp',
+  '-B/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/x86_64',
+  '-DOHOS_ARCH=x86_64',
+  '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/x86_64',
+  '-DCMAKE_BUILD_TYPE=Debug',
+  '-DOHOS_SDK_NATIVE=/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native',
+  '-DCMAKE_SYSTEM_NAME=OHOS',
+  '-DCMAKE_OHOS_ARCH_ABI=x86_64',
+  '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON',
+  '-DCMAKE_TOOLCHAIN_FILE=/Applications/DevEco-Studio.app/Contents/sdk/default/hms/native/build/cmake/hmos.toolchain.cmake',
+  '-GNinja',
+  '-DCMAKE_MAKE_PROGRAM=/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/build-tools/cmake/bin/ninja',
+  '-DCMAKE_FIND_ROOT_PATH=/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/hvigor/x86_64',
+  '-DPACKAGE_FIND_FILE=/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/hvigor/x86_64/summary.cmake',
+  '--no-warn-unused-cli',
+  '-DHMOS_SDK_NATIVE=/Applications/DevEco-Studio.app/Contents/sdk/default/hms/native'
+]
+[2025-04-01T23:16:16.837] [DEBUG] debug-file - Clean CMakeCache.txt due to outdated CMake configuration.
+[2025-04-01T23:16:16.837] [DEBUG] debug-file - - no fingerprint file, will remove stale cache CMakeCache.txt
+[2025-04-01T23:16:16.838] [DEBUG] debug-file - default@BuildNativeWithCmake work[1] is submitted.
+[2025-04-01T23:16:16.839] [DEBUG] debug-file - default@BuildNativeWithCmake work[1] is pushed to ready queue.
+[2025-04-01T23:16:16.839] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-04-01T23:16:16.839] [DEBUG] debug-file - A work dispatched to worker[14] failed because of worker busy.
+[2025-04-01T23:16:16.839] [DEBUG] debug-file - Create  resident worker with id: 13.
+[2025-04-01T23:16:16.840] [DEBUG] debug-file - default@BuildNativeWithCmake work[1] has been dispatched to worker[13].
+[2025-04-01T23:16:16.841] [DEBUG] debug-file - default@BuildNativeWithCmake work[1] is dispatched.
+[2025-04-01T23:16:16.841] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 1.6866836547851562
+[2025-04-01T23:16:17.822] [WARN] debug-file - CMake Deprecation Warning at CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+
+[2025-04-01T23:16:17.822] [WARN] debug-file - CMake Deprecation Warning at CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+
+[2025-04-01T23:16:17.822] [DEBUG] debug-file - Not searching for unused variables given on the command line.
+
+[2025-04-01T23:16:17.822] [DEBUG] debug-file - Not searching for unused variables given on the command line.
+
+[2025-04-01T23:16:18.412] [DEBUG] debug-file - -- The C compiler identification is Clang 15.0.4
+
+[2025-04-01T23:16:18.412] [DEBUG] debug-file - -- The C compiler identification is Clang 15.0.4
+
+[2025-04-01T23:16:18.510] [DEBUG] debug-file - -- The CXX compiler identification is Clang 15.0.4
+
+[2025-04-01T23:16:18.510] [DEBUG] debug-file - -- The CXX compiler identification is Clang 15.0.4
+
+[2025-04-01T23:16:22.844] [DEBUG] debug-file - -- Detecting C compiler ABI info
+
+[2025-04-01T23:16:22.844] [DEBUG] debug-file - -- Detecting C compiler ABI info
+
+[2025-04-01T23:16:23.234] [DEBUG] debug-file - -- Detecting C compiler ABI info - done
+
+[2025-04-01T23:16:23.234] [DEBUG] debug-file - -- Detecting C compiler ABI info - done
+
+[2025-04-01T23:16:23.241] [DEBUG] debug-file - -- Check for working C compiler: /Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/llvm/bin/clang - skipped
+
+[2025-04-01T23:16:23.242] [DEBUG] debug-file - -- Check for working C compiler: /Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/llvm/bin/clang - skipped
+
+[2025-04-01T23:16:23.242] [DEBUG] debug-file - -- Detecting C compile features
+
+[2025-04-01T23:16:23.242] [DEBUG] debug-file - -- Detecting C compile features
+
+[2025-04-01T23:16:23.243] [DEBUG] debug-file - -- Detecting C compile features - done
+
+[2025-04-01T23:16:23.244] [DEBUG] debug-file - -- Detecting C compile features - done
+
+[2025-04-01T23:16:23.327] [DEBUG] debug-file - -- Detecting CXX compiler ABI info
+
+[2025-04-01T23:16:23.328] [DEBUG] debug-file - -- Detecting CXX compiler ABI info
+
+[2025-04-01T23:16:23.648] [DEBUG] debug-file - -- Detecting CXX compiler ABI info - done
+
+[2025-04-01T23:16:23.648] [DEBUG] debug-file - -- Detecting CXX compiler ABI info - done
+
+[2025-04-01T23:16:23.657] [DEBUG] debug-file - -- Check for working CXX compiler: /Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/llvm/bin/clang++ - skipped
+
+[2025-04-01T23:16:23.657] [DEBUG] debug-file - -- Check for working CXX compiler: /Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/llvm/bin/clang++ - skipped
+
+[2025-04-01T23:16:23.658] [DEBUG] debug-file - -- Detecting CXX compile features
+
+[2025-04-01T23:16:23.658] [DEBUG] debug-file - -- Detecting CXX compile features
+
+[2025-04-01T23:16:23.658] [DEBUG] debug-file - -- Detecting CXX compile features - done
+
+[2025-04-01T23:16:23.658] [DEBUG] debug-file - -- Detecting CXX compile features - done
+
+[2025-04-01T23:16:23.660] [DEBUG] debug-file - -- Configuring done (5.8s)
+
+[2025-04-01T23:16:23.660] [DEBUG] debug-file - -- Configuring done (5.8s)
+
+[2025-04-01T23:16:23.672] [DEBUG] debug-file - -- Generating done (0.0s)
+
+[2025-04-01T23:16:23.672] [DEBUG] debug-file - -- Generating done (0.0s)
+
+[2025-04-01T23:16:23.686] [DEBUG] debug-file - -- Build files have been written to: /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/arm64-v8a
+
+[2025-04-01T23:16:23.686] [DEBUG] debug-file - -- Build files have been written to: /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/x86_64
+
+[2025-04-01T23:16:23.693] [DEBUG] debug-file - worker[13] has one work done.
+[2025-04-01T23:16:23.724] [DEBUG] debug-file - worker[14] has one work done.
+[2025-04-01T23:16:23.757] [DEBUG] debug-file - default@BuildNativeWithCmake work[1] done.
+[2025-04-01T23:16:23.757] [DEBUG] debug-file - A work dispatched to worker[13] failed because unable to get work from ready queue.
+[2025-04-01T23:16:23.757] [DEBUG] debug-file - default@BuildNativeWithCmake work[0] done.
+[2025-04-01T23:16:23.758] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2025-04-01T23:16:23.758] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 6 s 3 ms 
+[2025-04-01T23:16:23.759] [DEBUG] debug-file - Executing task :entry:compileNative
+[2025-04-01T23:16:23.759] [DEBUG] debug-file - entry : compileNative cost memory 0.01316070556640625
+[2025-04-01T23:16:23.759] [DEBUG] debug-file - runTaskFromQueue task cost before running: 8 s 911 ms 
+[2025-04-01T23:16:23.759] [INFO] debug-file - Finished :entry:compileNative... after 1 ms 
+[2025-04-01T23:16:23.761] [DEBUG] debug-file - BUILD SUCCESSFUL in 8 s 913 ms 
+[2025-04-01T23:16:23.762] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/AppScope/app.json5 cache by regenerate.
+[2025-04-01T23:16:23.763] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/module.json5 cache by regenerate.
+[2025-04-01T23:16:23.763] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/build-profile.json5 cache by regenerate.
+[2025-04-01T23:16:23.763] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build-profile.json5 cache by regenerate.
+[2025-04-01T23:16:23.763] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/resources/base/profile/main_pages.json cache by regenerate.
+[2025-04-01T23:16:23.763] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/hvigor/hvigor-config.json5 cache by regenerate.
+[2025-04-01T23:16:23.764] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/oh-package.json5 cache by regenerate.
+[2025-04-01T23:16:23.764] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/oh-package.json5 cache by regenerate.
+[2025-04-01T23:16:23.764] [DEBUG] debug-file - Incremental task entry:default@PreBuild post-execution cost:2 ms .
+[2025-04-01T23:16:23.770] [DEBUG] debug-file - Cleanup worker 0.
+[2025-04-01T23:16:23.771] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2025-04-01T23:16:23.771] [DEBUG] debug-file - Current idle worker size: 3.
+[2025-04-01T23:16:23.771] [DEBUG] debug-file - Current resident worker size: 4.
+[2025-04-01T23:16:23.771] [DEBUG] debug-file - Cleanup worker 1.
+[2025-04-01T23:16:23.771] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2025-04-01T23:16:23.771] [DEBUG] debug-file - Current idle worker size: 2.
+[2025-04-01T23:16:23.771] [DEBUG] debug-file - Current resident worker size: 4.
+[2025-04-01T23:16:23.772] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-04-01T23:16:23.774] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-04-01T23:16:23.774] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-04-01T23:16:23.774] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2025-04-01T23:16:23.775] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2025-04-01T23:16:23.775] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-04-01T23:16:23.775] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-04-01T23:16:52.944] [DEBUG] debug-file - session manager: set active socket. socketId=zQZNsgOk2udAEOPpAAAD
+[2025-04-01T23:16:52.947] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-04-01T23:16:52.955] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-04-01T23:16:52.957] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2025-04-01T23:16:52.964] [DEBUG] debug-file - hvigorfile, resolving /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/hvigorfile.ts
+[2025-04-01T23:16:52.970] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-04-01T23:16:52.970] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-04-01T23:16:52.974] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-04-01T23:16:52.974] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-04-01T23:16:52.974] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-04-01T23:16:52.974] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-04-01T23:16:52.975] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2025-04-01T23:16:52.976] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-04-01T23:16:52.982] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-04-01T23:16:53.012] [DEBUG] debug-file - Sdk init in 35 ms 
+[2025-04-01T23:16:53.024] [DEBUG] debug-file - Project task initialization takes 12 ms 
+[2025-04-01T23:16:53.024] [DEBUG] debug-file - hvigorfile, resolve finished /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/hvigorfile.ts
+[2025-04-01T23:16:53.028] [DEBUG] debug-file - hvigorfile, resolving /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/hvigorfile.ts
+[2025-04-01T23:16:53.032] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-04-01T23:16:53.032] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-04-01T23:16:53.036] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-04-01T23:16:53.036] [DEBUG] debug-file - Target 'default' config: {}
+[2025-04-01T23:16:53.036] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-04-01T23:16:53.037] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+}
+[2025-04-01T23:16:53.037] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+}
+[2025-04-01T23:16:53.037] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-04-01T23:16:53.037] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+} in this build.
+[2025-04-01T23:16:53.039] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2025-04-01T23:16:53.039] [DEBUG] debug-file - hvigorfile, resolve finished /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/hvigorfile.ts
+[2025-04-01T23:16:53.117] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 78 ms 
+[2025-04-01T23:16:53.118] [DEBUG] debug-file - project has submodules:entry
+[2025-04-01T23:16:53.119] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-04-01T23:16:53.121] [DEBUG] debug-file - load to the disk finished
+[2025-04-01T23:16:53.121] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-04-01T23:16:53.122] [DEBUG] debug-file - Module Login Collected Dependency: 
+[2025-04-01T23:16:53.122] [DEBUG] debug-file - Module Login's total dependency: 0
+[2025-04-01T23:16:53.122] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-04-01T23:16:53.123] [DEBUG] debug-file - Module entry Collected Dependency: /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/cpp/types/libentry
+[2025-04-01T23:16:53.123] [DEBUG] debug-file - Module entry's total dependency: 1
+[2025-04-01T23:16:53.125] [DEBUG] debug-file - Configuration phase cost:165 ms 
+[2025-04-01T23:16:53.126] [DEBUG] debug-file - Configuration task cost before running: 178 ms 
+[2025-04-01T23:16:53.127] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.127] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.127] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.128] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-04-01T23:16:53.132] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 3 ms .
+[2025-04-01T23:16:53.132] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.20673370361328125
+[2025-04-01T23:16:53.133] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2025-04-01T23:16:53.134] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.134] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.134] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.135] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2025-04-01T23:16:53.136] [DEBUG] debug-file - Task 'entry:default@GenerateMetadata' cost while wrapping incremental declarations: 1 ms 
+[2025-04-01T23:16:53.136] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.136] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.136] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.138] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.10938262939453125
+[2025-04-01T23:16:53.383] [DEBUG] debug-file - ninja: Entering directory `/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/arm64-v8a'
+
+[2025-04-01T23:16:53.138] [DEBUG] debug-file - runTaskFromQueue task cost before running: 190 ms 
+[2025-04-01T23:16:53.138] [INFO] debug-file - Finished :entry:default@GenerateMetadata... after 4 ms 
+[2025-04-01T23:16:53.139] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.139] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.139] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.139] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2025-04-01T23:16:53.140] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.140] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.140] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.166] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 2.195343017578125
+[2025-04-01T23:16:53.167] [DEBUG] debug-file - runTaskFromQueue task cost before running: 218 ms 
+[2025-04-01T23:16:53.167] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 28 ms 
+[2025-04-01T23:16:53.169] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.169] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.169] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.170] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-04-01T23:16:53.171] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.171] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.171] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.172] [DEBUG] debug-file - Change app api release type with 'Release'
+[2025-04-01T23:16:53.172] [DEBUG] debug-file - Change app compile API version with '5.0.4.150'
+[2025-04-01T23:16:53.172] [DEBUG] debug-file - Change app target API version with '50004016'
+[2025-04-01T23:16:53.173] [DEBUG] debug-file - Change app minimum API version with '50000012'
+[2025-04-01T23:16:53.173] [DEBUG] debug-file - Use cli appEnvironment
+[2025-04-01T23:16:53.175] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.51593017578125
+[2025-04-01T23:16:53.175] [DEBUG] debug-file - runTaskFromQueue task cost before running: 227 ms 
+[2025-04-01T23:16:53.175] [INFO] debug-file - Finished :entry:default@MergeProfile... after 5 ms 
+[2025-04-01T23:16:53.177] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.177] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.177] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.178] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-04-01T23:16:53.178] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-04-01T23:16:53.179] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.179] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.179] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.180] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.108062744140625
+[2025-04-01T23:16:53.180] [DEBUG] debug-file - runTaskFromQueue task cost before running: 232 ms 
+[2025-04-01T23:16:53.180] [INFO] debug-file - Finished :entry:default@CreateBuildProfile... after 3 ms 
+[2025-04-01T23:16:53.182] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.182] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.182] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.183] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-04-01T23:16:53.183] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.183] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.183] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.184] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.04998016357421875
+[2025-04-01T23:16:53.184] [DEBUG] debug-file - runTaskFromQueue task cost before running: 236 ms 
+[2025-04-01T23:16:53.184] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-04-01T23:16:53.186] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.186] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.186] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.195] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-04-01T23:16:53.195] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-04-01T23:16:53.196] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.03827667236328125
+[2025-04-01T23:16:53.196] [DEBUG] debug-file - runTaskFromQueue task cost before running: 248 ms 
+[2025-04-01T23:16:53.196] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 1 ms 
+[2025-04-01T23:16:53.197] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.198] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.198] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.199] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2025-04-01T23:16:53.201] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.201] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.201] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.201] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory -5.919525146484375
+[2025-04-01T23:16:53.202] [DEBUG] debug-file - runTaskFromQueue task cost before running: 253 ms 
+[2025-04-01T23:16:53.202] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 3 ms 
+[2025-04-01T23:16:53.203] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.203] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.203] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.204] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2025-04-01T23:16:53.204] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.204] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.204] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.205] [DEBUG] debug-file - Use tool [Cmake]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/build-tools/cmake/bin/cmake',
+  '-H/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/cpp',
+  '-B/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/arm64-v8a',
+  '-DOHOS_ARCH=arm64-v8a',
+  '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/arm64-v8a',
+  '-DCMAKE_BUILD_TYPE=Debug',
+  '-DOHOS_SDK_NATIVE=/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native',
+  '-DCMAKE_SYSTEM_NAME=OHOS',
+  '-DCMAKE_OHOS_ARCH_ABI=arm64-v8a',
+  '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON',
+  '-DCMAKE_TOOLCHAIN_FILE=/Applications/DevEco-Studio.app/Contents/sdk/default/hms/native/build/cmake/hmos.toolchain.cmake',
+  '-GNinja',
+  '-DCMAKE_MAKE_PROGRAM=/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/build-tools/cmake/bin/ninja',
+  '-DCMAKE_FIND_ROOT_PATH=/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/hvigor/arm64-v8a',
+  '-DPACKAGE_FIND_FILE=/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/hvigor/arm64-v8a/summary.cmake',
+  '--no-warn-unused-cli',
+  '-DHMOS_SDK_NATIVE=/Applications/DevEco-Studio.app/Contents/sdk/default/hms/native'
+]
+[2025-04-01T23:16:53.213] [DEBUG] debug-file - CMake configuration was up-to-date
+[2025-04-01T23:16:53.216] [DEBUG] debug-file - Use tool [Cmake]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/build-tools/cmake/bin/cmake',
+  '-H/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/cpp',
+  '-B/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/x86_64',
+  '-DOHOS_ARCH=x86_64',
+  '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/x86_64',
+  '-DCMAKE_BUILD_TYPE=Debug',
+  '-DOHOS_SDK_NATIVE=/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native',
+  '-DCMAKE_SYSTEM_NAME=OHOS',
+  '-DCMAKE_OHOS_ARCH_ABI=x86_64',
+  '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON',
+  '-DCMAKE_TOOLCHAIN_FILE=/Applications/DevEco-Studio.app/Contents/sdk/default/hms/native/build/cmake/hmos.toolchain.cmake',
+  '-GNinja',
+  '-DCMAKE_MAKE_PROGRAM=/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/build-tools/cmake/bin/ninja',
+  '-DCMAKE_FIND_ROOT_PATH=/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/hvigor/x86_64',
+  '-DPACKAGE_FIND_FILE=/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/hvigor/x86_64/summary.cmake',
+  '--no-warn-unused-cli',
+  '-DHMOS_SDK_NATIVE=/Applications/DevEco-Studio.app/Contents/sdk/default/hms/native'
+]
+[2025-04-01T23:16:53.218] [DEBUG] debug-file - CMake configuration was up-to-date
+[2025-04-01T23:16:53.219] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory -13.668220520019531
+[2025-04-01T23:16:53.219] [DEBUG] debug-file - runTaskFromQueue task cost before running: 271 ms 
+[2025-04-01T23:16:53.219] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 16 ms 
+[2025-04-01T23:16:53.220] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.220] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.220] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.221] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2025-04-01T23:16:53.222] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.222] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.222] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.223] [DEBUG] debug-file - Module Pack Info:  {
+  summary: {
+    app: { bundleName: 'c***o', bundleType: 'app', version: [Object] },
+    modules: [ [Object] ]
+  },
+  packages: [
+    {
+      deviceType: [Array],
+      moduleType: 'entry',
+      deliveryWithInstall: true,
+      name: 'entry-default'
+    }
+  ]
+}
+[2025-04-01T23:16:53.224] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.15064239501953125
+[2025-04-01T23:16:53.224] [DEBUG] debug-file - runTaskFromQueue task cost before running: 276 ms 
+[2025-04-01T23:16:53.224] [INFO] debug-file - Finished :entry:default@MakePackInfo... after 3 ms 
+[2025-04-01T23:16:53.225] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.226] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.404] [DEBUG] debug-file - ninja: Entering directory `/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/x86_64'
+
+[2025-04-01T23:16:53.226] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.226] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2025-04-01T23:16:53.226] [DEBUG] debug-file - File: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2025-04-01T23:16:53.227] [DEBUG] debug-file - Task 'entry:default@SyscapTransform' cost while wrapping incremental declarations: 1 ms 
+[2025-04-01T23:16:53.227] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.227] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.227] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.227] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.08606719970703125
+[2025-04-01T23:16:53.227] [DEBUG] debug-file - runTaskFromQueue task cost before running: 279 ms 
+[2025-04-01T23:16:53.227] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 2 ms 
+[2025-04-01T23:16:53.228] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.229] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.229] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.230] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-04-01T23:16:53.230] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.230] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.230] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.231] [DEBUG] debug-file - [
+  '/Applications/DevEco-Studio.app/Contents/tools/node/bin/node',
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/ets/build-tools/ets-loader/bin/ark/ts2abc.js',
+  '--target-api-version',
+  '12',
+  '--target-api-sub-version',
+  'beta1'
+]
+[2025-04-01T23:16:53.364] [DEBUG] debug-file - 12.0.2.0
+[2025-04-01T23:16:53.366] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.29109954833984375
+[2025-04-01T23:16:53.366] [DEBUG] debug-file - runTaskFromQueue task cost before running: 418 ms 
+[2025-04-01T23:16:53.366] [INFO] debug-file - Finished :entry:default@ProcessProfile... after 137 ms 
+[2025-04-01T23:16:53.367] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.367] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.368] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.369] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-04-01T23:16:53.370] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.370] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.370] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.371] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.11148834228515625
+[2025-04-01T23:16:53.371] [DEBUG] debug-file - runTaskFromQueue task cost before running: 423 ms 
+[2025-04-01T23:16:53.371] [INFO] debug-file - Finished :entry:default@ProcessRouterMap... after 3 ms 
+[2025-04-01T23:16:53.373] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.373] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.373] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.373] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2025-04-01T23:16:53.373] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.373] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.373] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.376] [DEBUG] debug-file - Use tool [Ninja]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/build-tools/cmake/bin/ninja',
+  '-C',
+  '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/arm64-v8a'
+]
+[2025-04-01T23:16:53.377] [DEBUG] debug-file - default@BuildNativeWithNinja work[2] is submitted.
+[2025-04-01T23:16:53.378] [DEBUG] debug-file - default@BuildNativeWithNinja work[2] is pushed to ready queue.
+[2025-04-01T23:16:53.378] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-04-01T23:16:53.379] [DEBUG] debug-file - default@BuildNativeWithNinja work[2] has been dispatched to worker[14].
+[2025-04-01T23:16:53.379] [DEBUG] debug-file - default@BuildNativeWithNinja work[2] is dispatched.
+[2025-04-01T23:16:53.390] [DEBUG] debug-file - Copy STL libc++_shared.so to /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/arm64-v8a due to OHOS_STL is 'c++_shared'
+[2025-04-01T23:16:53.399] [DEBUG] debug-file - Use tool [Ninja]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/build-tools/cmake/bin/ninja',
+  '-C',
+  '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/x86_64'
+]
+[2025-04-01T23:16:53.399] [DEBUG] debug-file - default@BuildNativeWithNinja work[3] is submitted.
+[2025-04-01T23:16:53.400] [DEBUG] debug-file - default@BuildNativeWithNinja work[3] is pushed to ready queue.
+[2025-04-01T23:16:53.400] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-04-01T23:16:53.400] [DEBUG] debug-file - A work dispatched to worker[14] failed because of worker busy.
+[2025-04-01T23:16:53.400] [DEBUG] debug-file - default@BuildNativeWithNinja work[3] has been dispatched to worker[13].
+[2025-04-01T23:16:53.400] [DEBUG] debug-file - default@BuildNativeWithNinja work[3] is dispatched.
+[2025-04-01T23:16:53.407] [DEBUG] debug-file - Copy STL libc++_shared.so to /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/x86_64 due to OHOS_STL is 'c++_shared'
+[2025-04-01T23:16:53.414] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 2.6768341064453125
+[2025-04-01T23:16:53.415] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.415] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.415] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.416] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2025-04-01T23:16:53.419] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2025-04-01T23:16:53.419] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.419] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.419] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.420] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.1751251220703125
+[2025-04-01T23:16:53.421] [DEBUG] debug-file - runTaskFromQueue task cost before running: 473 ms 
+[2025-04-01T23:16:53.422] [INFO] debug-file - Finished :entry:default@ProcessResource... after 4 ms 
+[2025-04-01T23:16:53.423] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.423] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.423] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.426] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-04-01T23:16:53.435] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.5682830810546875
+[2025-04-01T23:16:53.435] [DEBUG] debug-file - runTaskFromQueue task cost before running: 487 ms 
+[2025-04-01T23:16:53.438] [INFO] debug-file - Finished :entry:default@GenerateLoaderJson... after 10 ms 
+[2025-04-01T23:16:53.439] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.439] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.439] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.440] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2025-04-01T23:16:53.441] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2025-04-01T23:16:53.445] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool',
+  '-l',
+  '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/resConfig.json'
+]
+[2025-04-01T23:16:53.446] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 376979456,
+  heapTotal: 155807744,
+  heapUsed: 109679056,
+  external: 3218518,
+  arrayBuffers: 142552
+} os memoryUsage :31.858970642089844
+[2025-04-01T23:16:53.655] [DEBUG] debug-file - 04-01 23:16:53.654 42573 4959913 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+04-01 23:16:53.655 42573 4959913 E C01400/ImageTranscoderUtils: ImageFilter IN /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/AppScope/resources/base/media/app_icon.png
+
+[2025-04-01T23:16:53.668] [DEBUG] debug-file - 04-01 23:16:53.667 42573 4959913 E C01400/ImageTranscoder: TranscodeSLR Only zoom-out is supported.
+
+[2025-04-01T23:16:53.668] [DEBUG] debug-file - Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/AppScope/resources/base/media/app_icon.png
+
+[2025-04-01T23:16:53.668] [DEBUG] debug-file - 04-01 23:16:53.668 42573 4959913 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+
+[2025-04-01T23:16:53.668] [DEBUG] debug-file - 04-01 23:16:53.668 42573 4959913 E C01400/ImageTranscoderUtils: ImageFilter IN /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/resources/base/media/icon.png
+
+[2025-04-01T23:16:53.669] [DEBUG] debug-file - 04-01 23:16:53.669 42573 4959913 E C01400/ImageTranscoder: TranscodeSLR Only zoom-out is supported.
+Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/resources/base/media/icon.png
+
+[2025-04-01T23:16:53.672] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-04-01T23:16:53.675] [DEBUG] debug-file - astcenc customized so is not be opened when dlclose!
+
+[2025-04-01T23:16:53.679] [DEBUG] debug-file - entry : default@CompileResource cost memory -6.164512634277344
+[2025-04-01T23:16:53.680] [DEBUG] debug-file - runTaskFromQueue task cost before running: 731 ms 
+[2025-04-01T23:16:53.680] [INFO] debug-file - Finished :entry:default@CompileResource... after 239 ms 
+[2025-04-01T23:16:53.683] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.683] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.683] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.686] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2025-04-01T23:16:53.702] [DEBUG] debug-file - build config:
+[2025-04-01T23:16:53.703] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  watchMode: 'false',
+  aceProfilePath: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/resources/base/profile',
+  etsLoaderPath: '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/ets/build-tools/ets-loader',
+  modulePath: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login',
+  compileSdkVersion: 16,
+  compatibleSdkVersion: 12,
+  compatibleSdkVersionStage: 'beta1',
+  bundleName: 'c***o',
+  etsLoaderVersion: '5.0.4.150',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: '21743d5774141d6da2a0d77ceab36bdf',
+  externalApiPaths: [ '/Applications/DevEco-Studio.app/Contents/sdk/default/hms/ets' ],
+  compilerTypes: undefined,
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/generated/profile/default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 16,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: undefined,
+  buildDir: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build',
+  deviceTypes: [ 'phone', 'tablet' ],
+  useNormalizedOHMUrl: false,
+  pkgContextInfo: undefined,
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: undefined, definePermissions: undefined },
+  integratedHsp: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: false,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  depName2DepInfo: {},
+  rootPathSet: [ '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login' ],
+  useNativeResolver: true,
+  shouldEmitJs: true,
+  autoLazyImport: undefined,
+  allowEmptyBundleName: false,
+  singleFileEmit: false,
+  aceModuleJsonPath: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/ark_module.json',
+  appResource: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/ResourceTable.txt',
+  rawFileResource: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/resources/rawfile',
+  resourceTableHash: '667e724b21a5d17290ec68fd81080d24',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:16:5.0.4.150:Release',
+  aceModuleRoot: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/supervisual',
+  aceBuildJson: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/loader/default/loader.json',
+  cachePath: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/cache/default/default@CompileArkTS/esmodule/debug',
+  aceModuleBuild: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/loader_out/default/ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    entry: {
+      pkgRoot: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main': {
+      moduleName: 'entry',
+      modulePkgPath: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry',
+      belongProjectPath: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login'
+    },
+    '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/ohosTest': {
+      moduleName: 'entry_test',
+      modulePkgPath: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry',
+      belongProjectPath: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login'
+    },
+    '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry': {
+      moduleName: 'entry',
+      modulePkgPath: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry',
+      belongProjectPath: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login'
+    },
+    '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login': {
+      moduleName: 'Login',
+      modulePkgPath: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login',
+      belongProjectPath: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login'
+    }
+  },
+  pkgJsonFileHash: '6b8e75894b10feba3564ed365cce7ee7',
+  allModulePaths: [
+    '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry'
+  ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  compileBlockPkg: [],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: undefined,
+    mockConfigKey2ModuleInfo: {}
+  },
+  copyCodeResourceEnable: true,
+  copyCodeResourceExcludes: [],
+  otherPaths: {
+    'entry/*': [ '../*', '../../../build/default/generated/profile/default/*' ]
+  },
+  collectImportersConfig: undefined
+}
+[2025-04-01T23:16:53.703] [DEBUG] debug-file - Compile arkts with external api path: /Applications/DevEco-Studio.app/Contents/sdk/default/hms/ets
+[2025-04-01T23:16:53.704] [DEBUG] debug-file - default@CompileArkTS work[4] is submitted.
+[2025-04-01T23:16:53.705] [DEBUG] debug-file - default@CompileArkTS work[4] is pushed to ready queue.
+[2025-04-01T23:16:53.705] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-04-01T23:16:53.705] [DEBUG] debug-file - A work dispatched to worker[14] failed because of worker busy.
+[2025-04-01T23:16:53.705] [DEBUG] debug-file - A work dispatched to worker[13] failed because of worker busy.
+[2025-04-01T23:16:53.706] [DEBUG] debug-file - A work dispatched to worker[12] failed because unable to get work from ready queue.
+[2025-04-01T23:16:53.706] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
+[2025-04-01T23:16:53.706] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2025-04-01T23:16:53.706] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2025-04-01T23:16:53.706] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
+[2025-04-01T23:16:53.706] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2025-04-01T23:16:53.706] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2025-04-01T23:16:53.706] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2025-04-01T23:16:53.706] [DEBUG] debug-file - Create  resident worker with id: 4.
+[2025-04-01T23:16:53.708] [DEBUG] debug-file - default@CompileArkTS work[4] has been dispatched to worker[4].
+[2025-04-01T23:16:53.709] [DEBUG] debug-file - default@CompileArkTS work[4] is dispatched.
+[2025-04-01T23:16:53.709] [DEBUG] debug-file - CopyResources startTime: 695138025699953
+[2025-04-01T23:16:53.709] [DEBUG] debug-file - default@CompileArkTS work[5] is submitted.
+[2025-04-01T23:16:53.710] [DEBUG] debug-file - default@CompileArkTS work[5] is pushed to ready queue.
+[2025-04-01T23:16:53.710] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-04-01T23:16:53.710] [DEBUG] debug-file - A work dispatched to worker[14] failed because of worker busy.
+[2025-04-01T23:16:53.710] [DEBUG] debug-file - A work dispatched to worker[13] failed because of worker busy.
+[2025-04-01T23:16:53.710] [DEBUG] debug-file - Create  resident worker with id: 12.
+[2025-04-01T23:16:53.711] [DEBUG] debug-file - default@CompileArkTS work[5] has been dispatched to worker[12].
+[2025-04-01T23:16:53.711] [DEBUG] debug-file - default@CompileArkTS work[5] is dispatched.
+[2025-04-01T23:16:53.712] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 1.4477310180664062
+[2025-04-01T23:16:53.714] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:53.714] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:53.714] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:53.716] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2025-04-01T23:16:53.718] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.09027099609375
+[2025-04-01T23:16:53.719] [DEBUG] debug-file - runTaskFromQueue task cost before running: 770 ms 
+[2025-04-01T23:16:53.719] [INFO] debug-file - Finished :entry:default@BuildJS... after 3 ms 
+[2025-04-01T23:16:54.414] [DEBUG] debug-file - worker[12] has one work done.
+[2025-04-01T23:16:54.414] [DEBUG] debug-file - CopyResources is end, endTime: 695138730917181
+[2025-04-01T23:16:54.414] [DEBUG] debug-file - default@CompileArkTS work[5] done.
+[2025-04-01T23:16:54.414] [DEBUG] debug-file - A work dispatched to worker[12] failed because unable to get work from ready queue.
+[2025-04-01T23:16:54.471] [DEBUG] debug-file - [1/2] Building CXX object CMakeFiles/entry.dir/hello.cpp.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
+
+[2025-04-01T23:16:54.489] [DEBUG] debug-file - [1/2] Building CXX object CMakeFiles/entry.dir/hello.cpp.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
+
+[2025-04-01T23:16:54.774] [DEBUG] debug-file - [2/2] Linking CXX shared library /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/x86_64/libentry.so
+
+[2025-04-01T23:16:54.775] [DEBUG] debug-file - [2/2] Linking CXX shared library /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so
+
+[2025-04-01T23:16:54.775] [DEBUG] debug-file - worker[13] has one work done.
+[2025-04-01T23:16:54.784] [DEBUG] debug-file - default@BuildNativeWithNinja work[3] done.
+[2025-04-01T23:16:54.784] [DEBUG] debug-file - A work dispatched to worker[13] failed because unable to get work from ready queue.
+[2025-04-01T23:16:54.784] [DEBUG] debug-file - worker[14] has one work done.
+[2025-04-01T23:16:54.792] [DEBUG] debug-file - default@BuildNativeWithNinja work[2] done.
+[2025-04-01T23:16:54.792] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2025-04-01T23:16:54.792] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 1 s 402 ms 
+[2025-04-01T23:16:54.793] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:54.794] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:54.794] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:54.794] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2025-04-01T23:16:54.798] [DEBUG] debug-file - Check content hash for /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/x86_64/libentry.so
+[2025-04-01T23:16:54.802] [DEBUG] debug-file - Check content hash for /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/x86_64/libc++_shared.so
+[2025-04-01T23:16:54.807] [DEBUG] debug-file - Check content hash for /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so
+[2025-04-01T23:16:54.808] [DEBUG] debug-file - Check content hash for /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libc++_shared.so
+[2025-04-01T23:16:54.812] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:54.812] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:54.812] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:54.815] [DEBUG] debug-file - default@ProcessLibs work[6] is submitted.
+[2025-04-01T23:16:54.816] [DEBUG] debug-file - default@ProcessLibs work[6] is pushed to ready queue.
+[2025-04-01T23:16:54.816] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-04-01T23:16:54.816] [DEBUG] debug-file - default@ProcessLibs work[6] has been dispatched to worker[14].
+[2025-04-01T23:16:54.816] [DEBUG] debug-file - default@ProcessLibs work[6] is dispatched.
+[2025-04-01T23:16:54.816] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 1.2363739013671875
+[2025-04-01T23:16:54.823] [DEBUG] debug-file - Link /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/x86_64/libentry.so to /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/libs/default/x86_64/libentry.so successfully.
+[2025-04-01T23:16:54.824] [DEBUG] debug-file - Link /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/x86_64/libc++_shared.so to /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/libs/default/x86_64/libc++_shared.so successfully.
+[2025-04-01T23:16:54.825] [DEBUG] debug-file - Link /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so to /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/libs/default/arm64-v8a/libentry.so successfully.
+[2025-04-01T23:16:54.826] [DEBUG] debug-file - Link /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libc++_shared.so to /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/libs/default/arm64-v8a/libc++_shared.so successfully.
+[2025-04-01T23:16:54.826] [DEBUG] debug-file - worker[14] has one work done.
+[2025-04-01T23:16:54.826] [DEBUG] debug-file - default@ProcessLibs work[6] done.
+[2025-04-01T23:16:54.826] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2025-04-01T23:16:54.827] [INFO] debug-file - Finished :entry:default@ProcessLibs... after 28 ms 
+[2025-04-01T23:16:54.828] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:54.828] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:54.828] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:54.829] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2025-04-01T23:16:54.829] [DEBUG] debug-file - Task 'entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2025-04-01T23:16:54.829] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:54.830] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:54.830] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:54.830] [DEBUG] debug-file - default@DoNativeStrip work[7] is submitted.
+[2025-04-01T23:16:54.830] [DEBUG] debug-file - default@DoNativeStrip work[7] is pushed to ready queue.
+[2025-04-01T23:16:54.830] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-04-01T23:16:54.830] [DEBUG] debug-file - default@DoNativeStrip work[7] has been dispatched to worker[14].
+[2025-04-01T23:16:54.831] [DEBUG] debug-file - default@DoNativeStrip work[7] is dispatched.
+[2025-04-01T23:16:54.831] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.20819854736328125
+[2025-04-01T23:16:54.857] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 556613632,
+  heapTotal: 52391936,
+  heapUsed: 49340472,
+  external: 3901726,
+  arrayBuffers: 62000
+} os memoryUsage :31.90917205810547
+[2025-04-01T23:16:54.866] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 557780992,
+  heapTotal: 52391936,
+  heapUsed: 49491432,
+  external: 3901766,
+  arrayBuffers: 62000
+} os memoryUsage :31.9110107421875
+[2025-04-01T23:16:54.870] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 561410048,
+  heapTotal: 52391936,
+  heapUsed: 49652232,
+  external: 3901766,
+  arrayBuffers: 62000
+} os memoryUsage :31.9110107421875
+[2025-04-01T23:16:54.872] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 561627136,
+  heapTotal: 52391936,
+  heapUsed: 49797136,
+  external: 3901766,
+  arrayBuffers: 62000
+} os memoryUsage :31.9110107421875
+[2025-04-01T23:16:54.904] [DEBUG] debug-file - worker[14] has one work done.
+[2025-04-01T23:16:54.904] [DEBUG] debug-file - default@DoNativeStrip work[7] done.
+[2025-04-01T23:16:54.904] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2025-04-01T23:16:54.904] [INFO] debug-file - Finished :entry:default@DoNativeStrip... after 70 ms 
+[2025-04-01T23:16:54.905] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:54.905] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:54.905] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:54.906] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2025-04-01T23:16:54.907] [DEBUG] debug-file - Task 'entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2025-04-01T23:16:54.907] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:16:54.907] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:16:54.907] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:16:54.907] [DEBUG] debug-file - default@CacheNativeLibs work[8] is submitted.
+[2025-04-01T23:16:54.908] [DEBUG] debug-file - default@CacheNativeLibs work[8] is pushed to ready queue.
+[2025-04-01T23:16:54.908] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-04-01T23:16:54.908] [DEBUG] debug-file - default@CacheNativeLibs work[8] has been dispatched to worker[14].
+[2025-04-01T23:16:54.908] [DEBUG] debug-file - default@CacheNativeLibs work[8] is dispatched.
+[2025-04-01T23:16:54.908] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.22801971435546875
+[2025-04-01T23:16:55.509] [DEBUG] debug-file - worker[14] has one work done.
+[2025-04-01T23:16:55.509] [DEBUG] debug-file - default@CacheNativeLibs work[8] done.
+[2025-04-01T23:16:55.509] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2025-04-01T23:16:55.509] [INFO] debug-file - Finished :entry:default@CacheNativeLibs... after 5 ms 
+[2025-04-01T23:17:01.596] [INFO] debug-file - [33mWARN: [33mArkTS:WARN File: /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/ets/view/MinePage.ets:124:11
+ Property 'item' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/ets/view/HomePage.ets:88:13
+ Property 'item' is private and can not be initialized through the component constructor.[39m
+[33mWARN: [33mArkTS:WARN File: /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/ets/view/HomePage.ets:128:13
+ Property 'secondItem' is private and can not be initialized through the component constructor.[39m
+
+[2025-04-01T23:17:01.597] [DEBUG] debug-file - Ark compile task finished.finished time is 695145912012518
+[2025-04-01T23:17:01.597] [DEBUG] debug-file - worker[4] has one work done.
+[2025-04-01T23:17:01.601] [DEBUG] debug-file - default@CompileArkTS work[4] done.
+[2025-04-01T23:17:01.601] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2025-04-01T23:17:01.602] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 6 s 393 ms 
+[2025-04-01T23:17:01.603] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:17:01.603] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:17:01.603] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:17:01.604] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2025-04-01T23:17:01.604] [DEBUG] debug-file - Task 'entry:default@GeneratePkgModuleJson' cost while wrapping incremental declarations: 1 ms 
+[2025-04-01T23:17:01.604] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:17:01.604] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:17:01.604] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:17:01.605] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.084747314453125
+[2025-04-01T23:17:01.605] [DEBUG] debug-file - runTaskFromQueue task cost before running: 8 s 656 ms 
+[2025-04-01T23:17:01.606] [INFO] debug-file - Finished :entry:default@GeneratePkgModuleJson... after 2 ms 
+[2025-04-01T23:17:01.607] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:17:01.607] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:17:01.608] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:17:01.610] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2025-04-01T23:17:01.613] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:17:01.613] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:17:01.613] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:17:01.614] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/lib/app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=utf-8',
+  '-jar',
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/lib/app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/stripped_native_libs/default',
+  '--json-path',
+  '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/package/default/module.json',
+  '--resources-path',
+  '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/resources',
+  '--index-path',
+  '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/resources.index',
+  '--pack-info-path',
+  '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/outputs/default/pack.info',
+  '--out-path',
+  '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/outputs/default/entry-default-unsigned.hap',
+  '--ets-path',
+  '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/loader_out/default/ets'
+]
+[2025-04-01T23:17:01.615] [DEBUG] debug-file - default@PackageHap work[9] is submitted.
+[2025-04-01T23:17:01.615] [DEBUG] debug-file - default@PackageHap work[9] is pushed to ready queue.
+[2025-04-01T23:17:01.615] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-04-01T23:17:01.615] [DEBUG] debug-file - default@PackageHap work[9] has been dispatched to worker[14].
+[2025-04-01T23:17:01.616] [DEBUG] debug-file - default@PackageHap work[9] is dispatched.
+[2025-04-01T23:17:01.617] [DEBUG] debug-file - entry : default@PackageHap cost memory 0.5796585083007812
+[2025-04-01T23:17:01.617] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 947781632,
+  heapTotal: 110505984,
+  heapUsed: 95273152,
+  external: 3945659,
+  arrayBuffers: 105893
+} os memoryUsage :31.96410369873047
+[2025-04-01T23:17:02.074] [DEBUG] debug-file - worker[14] has one work done.
+[2025-04-01T23:17:02.074] [DEBUG] debug-file - default@PackageHap work[9] done.
+[2025-04-01T23:17:02.074] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2025-04-01T23:17:02.075] [INFO] debug-file - Finished :entry:default@PackageHap... after 464 ms 
+[2025-04-01T23:17:02.076] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:17:02.076] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:17:02.076] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:17:02.078] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2025-04-01T23:17:02.079] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/build-profile.json5.
+[2025-04-01T23:17:02.079] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:17:02.079] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:17:02.079] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:17:02.079] [DEBUG] debug-file - entry : default@SignHap cost memory 0.09976959228515625
+[2025-04-01T23:17:02.080] [DEBUG] debug-file - runTaskFromQueue task cost before running: 9 s 130 ms 
+[2025-04-01T23:17:02.080] [INFO] debug-file - Finished :entry:default@SignHap... after 2 ms 
+[2025-04-01T23:17:02.081] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:17:02.081] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:17:02.081] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:17:02.082] [DEBUG] debug-file - Executing task :entry:default@CollectDebugSymbol
+[2025-04-01T23:17:02.085] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:17:02.085] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:17:02.085] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:17:02.085] [DEBUG] debug-file - entry : default@CollectDebugSymbol cost memory 0.19242095947265625
+[2025-04-01T23:17:02.085] [DEBUG] debug-file - runTaskFromQueue task cost before running: 9 s 135 ms 
+[2025-04-01T23:17:02.085] [INFO] debug-file - Finished :entry:default@CollectDebugSymbol... after 4 ms 
+[2025-04-01T23:17:02.086] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2025-04-01T23:17:02.086] [DEBUG] debug-file - entry : assembleHap cost memory 0.01181793212890625
+[2025-04-01T23:17:02.086] [DEBUG] debug-file - runTaskFromQueue task cost before running: 9 s 137 ms 
+[2025-04-01T23:17:02.086] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2025-04-01T23:17:02.088] [DEBUG] debug-file - BUILD SUCCESSFUL in 9 s 138 ms 
+[2025-04-01T23:17:02.088] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2025-04-01T23:17:02.088] [DEBUG] debug-file - Update task entry:default@GenerateMetadata input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/module.json5 cache by regenerate.
+[2025-04-01T23:17:02.088] [DEBUG] debug-file - Update task entry:default@GenerateMetadata output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/hap_metadata/default/output_metadata.json cache.
+[2025-04-01T23:17:02.088] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata post-execution cost:1 ms .
+[2025-04-01T23:17:02.088] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/AppScope/app.json5 cache by regenerate.
+[2025-04-01T23:17:02.088] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/build-profile.json5 cache by regenerate.
+[2025-04-01T23:17:02.088] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/module.json5 cache by regenerate.
+[2025-04-01T23:17:02.088] [DEBUG] debug-file - Update task entry:default@MergeProfile output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/merge_profile/default/module.json cache.
+[2025-04-01T23:17:02.089] [DEBUG] debug-file - Incremental task entry:default@MergeProfile post-execution cost:1 ms .
+[2025-04-01T23:17:02.089] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/AppScope/app.json5 cache by regenerate.
+[2025-04-01T23:17:02.089] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/build-profile.json5 cache by regenerate.
+[2025-04-01T23:17:02.089] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/generated/profile/default/BuildProfile.ets cache.
+[2025-04-01T23:17:02.089] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile post-execution cost:1 ms .
+[2025-04-01T23:17:02.089] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache.
+[2025-04-01T23:17:02.089] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-04-01T23:17:02.090] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/build/cache/default/integrated_hsp/integratedHspCache.json cache.
+[2025-04-01T23:17:02.090] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2025-04-01T23:17:02.090] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/AppScope/app.json5 cache by regenerate.
+[2025-04-01T23:17:02.090] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/module.json5 cache by regenerate.
+[2025-04-01T23:17:02.090] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/build-profile.json5 cache by regenerate.
+[2025-04-01T23:17:02.090] [DEBUG] debug-file - Update task entry:default@MakePackInfo output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/outputs/default/pack.info cache.
+[2025-04-01T23:17:02.091] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo post-execution cost:1 ms .
+[2025-04-01T23:17:02.091] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/syscap_tool cache by regenerate.
+[2025-04-01T23:17:02.091] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/ets/api/device-define cache by regenerate.
+[2025-04-01T23:17:02.091] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/syscap/default/rpcid.sc cache.
+[2025-04-01T23:17:02.091] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:1 ms .
+[2025-04-01T23:17:02.092] [DEBUG] debug-file - Update task entry:default@ProcessProfile input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/merge_profile/default/module.json cache by regenerate.
+[2025-04-01T23:17:02.092] [DEBUG] debug-file - Update task entry:default@ProcessProfile output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/process_profile/default/module.json cache.
+[2025-04-01T23:17:02.092] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile post-execution cost:1 ms .
+[2025-04-01T23:17:02.092] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/oh-package.json5 cache by regenerate.
+[2025-04-01T23:17:02.092] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/oh-package.json5 cache by regenerate.
+[2025-04-01T23:17:02.092] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/module.json5 cache by regenerate.
+[2025-04-01T23:17:02.092] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/router_map/default/temp-router-map.json cache.
+[2025-04-01T23:17:02.092] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/router_map/default/loader-router-map.json cache.
+[2025-04-01T23:17:02.093] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap post-execution cost:1 ms .
+[2025-04-01T23:17:02.093] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/resConfig.json cache.
+[2025-04-01T23:17:02.093] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/opt-compression.json cache.
+[2025-04-01T23:17:02.093] [DEBUG] debug-file - Incremental task entry:default@ProcessResource post-execution cost:1 ms .
+[2025-04-01T23:17:02.094] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/router_map/default/temp-router-map.json cache by regenerate.
+[2025-04-01T23:17:02.094] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/loader/default/loader.json cache.
+[2025-04-01T23:17:02.094] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson post-execution cost:2 ms .
+[2025-04-01T23:17:02.094] [DEBUG] debug-file - Update task entry:default@CompileResource input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/resources cache by regenerate.
+[2025-04-01T23:17:02.098] [DEBUG] debug-file - Update task entry:default@CompileResource input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/AppScope/resources cache by regenerate.
+[2025-04-01T23:17:02.098] [DEBUG] debug-file - Update task entry:default@CompileResource input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/process_profile/default/module.json cache by regenerate.
+[2025-04-01T23:17:02.098] [DEBUG] debug-file - Update task entry:default@CompileResource input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/resConfig.json cache by regenerate.
+[2025-04-01T23:17:02.098] [DEBUG] debug-file - Update task entry:default@CompileResource output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default cache.
+[2025-04-01T23:17:02.101] [DEBUG] debug-file - Update task entry:default@CompileResource output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/generated/r/default/ResourceTable.h cache.
+[2025-04-01T23:17:02.101] [DEBUG] debug-file - Update task entry:default@CompileResource output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/generated/r/default cache.
+[2025-04-01T23:17:02.101] [DEBUG] debug-file - Incremental task entry:default@CompileResource post-execution cost:7 ms .
+[2025-04-01T23:17:02.102] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/loader/default cache by regenerate.
+[2025-04-01T23:17:02.102] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/ResourceTable.txt cache by regenerate.
+[2025-04-01T23:17:02.102] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/ark_module.json cache by regenerate.
+[2025-04-01T23:17:02.102] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/resources/base/profile cache by regenerate.
+[2025-04-01T23:17:02.102] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/ets cache by regenerate.
+[2025-04-01T23:17:02.104] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/generated/profile/default/BuildProfile.ets cache by regenerate.
+[2025-04-01T23:17:02.104] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/cpp/types cache by regenerate.
+[2025-04-01T23:17:02.104] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/loader_out/default/ets cache.
+[2025-04-01T23:17:02.104] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:4 ms .
+[2025-04-01T23:17:02.105] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/loader/default cache by regenerate.
+[2025-04-01T23:17:02.105] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/ResourceTable.txt cache by regenerate.
+[2025-04-01T23:17:02.105] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/ark_module.json cache by regenerate.
+[2025-04-01T23:17:02.105] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/resources/base/profile cache by regenerate.
+[2025-04-01T23:17:02.105] [DEBUG] debug-file - Update task entry:default@BuildJS output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/loader_out/default/js cache.
+[2025-04-01T23:17:02.106] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:2 ms .
+[2025-04-01T23:17:02.106] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/build-profile.json5 cache by regenerate.
+[2025-04-01T23:17:02.106] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build-profile.json5 cache by regenerate.
+[2025-04-01T23:17:02.106] [DEBUG] debug-file - Update task entry:default@ProcessLibs output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/libs/default cache.
+[2025-04-01T23:17:02.106] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs post-execution cost:1 ms .
+[2025-04-01T23:17:02.107] [DEBUG] debug-file - Update task entry:default@DoNativeStrip input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/libs/default cache by regenerate.
+[2025-04-01T23:17:02.107] [DEBUG] debug-file - Update task entry:default@DoNativeStrip output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/stripped_native_libs/default cache.
+[2025-04-01T23:17:02.108] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip post-execution cost:2 ms .
+[2025-04-01T23:17:02.108] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/stripped_native_libs/default cache by regenerate.
+[2025-04-01T23:17:02.108] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/libs/default cache by regenerate.
+[2025-04-01T23:17:02.109] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/patch/default/base_native_libs.json cache.
+[2025-04-01T23:17:02.109] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs post-execution cost:2 ms .
+[2025-04-01T23:17:02.109] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/module.json cache by regenerate.
+[2025-04-01T23:17:02.109] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/package/default/module.json cache.
+[2025-04-01T23:17:02.109] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson post-execution cost:1 ms .
+[2025-04-01T23:17:02.109] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/stripped_native_libs/default cache by regenerate.
+[2025-04-01T23:17:02.110] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/module.json cache by regenerate.
+[2025-04-01T23:17:02.110] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/resources cache by regenerate.
+[2025-04-01T23:17:02.112] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/resources.index cache by regenerate.
+[2025-04-01T23:17:02.112] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/outputs/default/pack.info cache by regenerate.
+[2025-04-01T23:17:02.112] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/loader_out/default/ets cache by regenerate.
+[2025-04-01T23:17:02.112] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/loader_out/default/ets/sourceMaps.map cache by regenerate.
+[2025-04-01T23:17:02.112] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/generated/profile/default/BuildProfile.ets cache by regenerate.
+[2025-04-01T23:17:02.113] [DEBUG] debug-file - Update task entry:default@PackageHap output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/outputs/default/entry-default-unsigned.hap cache.
+[2025-04-01T23:17:02.113] [DEBUG] debug-file - Update task entry:default@PackageHap output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/source_map/default/sourceMaps.map cache.
+[2025-04-01T23:17:02.113] [DEBUG] debug-file - Update task entry:default@PackageHap output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/outputs/default/mapping/sourceMaps.map cache.
+[2025-04-01T23:17:02.113] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:4 ms .
+[2025-04-01T23:17:02.113] [DEBUG] debug-file - Update task entry:default@SignHap input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/outputs/default/entry-default-unsigned.hap cache by regenerate.
+[2025-04-01T23:17:02.113] [DEBUG] debug-file - Update task entry:default@SignHap output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/outputs/default/entry-default-signed.hap cache.
+[2025-04-01T23:17:02.113] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2025-04-01T23:17:02.114] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/loader_out/default/ets/sourceMaps.map cache by regenerate.
+[2025-04-01T23:17:02.114] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/libs/default cache by regenerate.
+[2025-04-01T23:17:02.115] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/outputs/default/symbol cache.
+[2025-04-01T23:17:02.115] [DEBUG] debug-file - Incremental task entry:default@CollectDebugSymbol post-execution cost:2 ms .
+[2025-04-01T23:17:02.126] [DEBUG] debug-file - Cleanup worker 12.
+[2025-04-01T23:17:02.126] [DEBUG] debug-file - Worker 12 has been cleaned up.
+[2025-04-01T23:17:02.126] [DEBUG] debug-file - Current idle worker size: 3.
+[2025-04-01T23:17:02.126] [DEBUG] debug-file - Current resident worker size: 4.
+[2025-04-01T23:17:02.127] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-04-01T23:17:02.130] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-04-01T23:17:02.130] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-04-01T23:17:02.130] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-04-01T23:17:02.130] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-04-01T23:17:02.136] [DEBUG] debug-file - worker[12] exits with exit code 1.
+[2025-04-01T23:24:44.291] [DEBUG] debug-file - session manager: set active socket. socketId=RieoR3yldzse9XCWAAAF
+[2025-04-01T23:24:44.294] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-04-01T23:24:44.302] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-04-01T23:24:44.307] [DEBUG] debug-file - Cache service initialization finished in 5 ms 
+[2025-04-01T23:24:44.314] [DEBUG] debug-file - hvigorfile, resolving /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/hvigorfile.ts
+[2025-04-01T23:24:44.320] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-04-01T23:24:44.320] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-04-01T23:24:44.325] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-04-01T23:24:44.325] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-04-01T23:24:44.325] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-04-01T23:24:44.325] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-04-01T23:24:44.326] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2025-04-01T23:24:44.328] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-04-01T23:24:44.332] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-04-01T23:24:44.361] [DEBUG] debug-file - Sdk init in 32 ms 
+[2025-04-01T23:24:44.371] [DEBUG] debug-file - Project task initialization takes 11 ms 
+[2025-04-01T23:24:44.372] [DEBUG] debug-file - hvigorfile, resolve finished /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/hvigorfile.ts
+[2025-04-01T23:24:44.376] [DEBUG] debug-file - hvigorfile, resolving /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/hvigorfile.ts
+[2025-04-01T23:24:44.380] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-04-01T23:24:44.381] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-04-01T23:24:44.386] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-04-01T23:24:44.386] [DEBUG] debug-file - Target 'default' config: {}
+[2025-04-01T23:24:44.387] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-04-01T23:24:44.387] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+}
+[2025-04-01T23:24:44.387] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+}
+[2025-04-01T23:24:44.387] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-04-01T23:24:44.387] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+} in this build.
+[2025-04-01T23:24:44.389] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2025-04-01T23:24:44.389] [DEBUG] debug-file - hvigorfile, resolve finished /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/hvigorfile.ts
+[2025-04-01T23:24:44.474] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 85 ms 
+[2025-04-01T23:24:44.475] [DEBUG] debug-file - project has submodules:entry
+[2025-04-01T23:24:44.476] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-04-01T23:24:44.478] [DEBUG] debug-file - load to the disk finished
+[2025-04-01T23:24:44.479] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-04-01T23:24:44.479] [DEBUG] debug-file - Module Login Collected Dependency: 
+[2025-04-01T23:24:44.479] [DEBUG] debug-file - Module Login's total dependency: 0
+[2025-04-01T23:24:44.480] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-04-01T23:24:44.480] [DEBUG] debug-file - Module entry Collected Dependency: /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/cpp/types/libentry
+[2025-04-01T23:24:44.480] [DEBUG] debug-file - Module entry's total dependency: 1
+[2025-04-01T23:24:44.482] [DEBUG] debug-file - Configuration phase cost:172 ms 
+[2025-04-01T23:24:44.483] [DEBUG] debug-file - Configuration task cost before running: 188 ms 
+[2025-04-01T23:24:44.484] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.484] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.484] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.485] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-04-01T23:24:44.487] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 2 ms .
+[2025-04-01T23:24:44.487] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.20201873779296875
+[2025-04-01T23:24:44.488] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2025-04-01T23:24:44.489] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.489] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.489] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.489] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2025-04-01T23:24:44.490] [DEBUG] debug-file - Task 'entry:default@GenerateMetadata' cost while wrapping incremental declarations: 1 ms 
+[2025-04-01T23:24:44.490] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata pre-execution cost: 1 ms .
+[2025-04-01T23:24:44.490] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.08361053466796875
+[2025-04-01T23:24:44.490] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateMetadata...  
+[2025-04-01T23:24:44.491] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.491] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.491] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.491] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2025-04-01T23:24:44.491] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.491] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.491] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.517] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 2.0448150634765625
+[2025-04-01T23:24:44.517] [DEBUG] debug-file - runTaskFromQueue task cost before running: 223 ms 
+[2025-04-01T23:24:44.582] [DEBUG] debug-file - ninja: Entering directory `/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/arm64-v8a'
+
+[2025-04-01T23:24:44.517] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 26 ms 
+[2025-04-01T23:24:44.519] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.590] [DEBUG] debug-file - ninja: no work to do.
+
+[2025-04-01T23:24:44.519] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.519] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.520] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-04-01T23:24:44.521] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 1 ms .
+[2025-04-01T23:24:44.521] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.091705322265625
+[2025-04-01T23:24:44.521] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2025-04-01T23:24:44.522] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.522] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.523] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.523] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-04-01T23:24:44.524] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-04-01T23:24:44.525] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 1 ms .
+[2025-04-01T23:24:44.525] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.086395263671875
+[2025-04-01T23:24:44.525] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2025-04-01T23:24:44.527] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.527] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.527] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.528] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-04-01T23:24:44.528] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.528] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.528] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.528] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.04962921142578125
+[2025-04-01T23:24:44.528] [DEBUG] debug-file - runTaskFromQueue task cost before running: 234 ms 
+[2025-04-01T23:24:44.528] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-04-01T23:24:44.530] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.530] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.530] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.533] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-04-01T23:24:44.533] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-04-01T23:24:44.534] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.03778076171875
+[2025-04-01T23:24:44.534] [DEBUG] debug-file - runTaskFromQueue task cost before running: 239 ms 
+[2025-04-01T23:24:44.534] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 2 ms 
+[2025-04-01T23:24:44.536] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.536] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.536] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.538] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2025-04-01T23:24:44.539] [DEBUG] debug-file - entry:default@ProcessIntegratedHsp is not up-to-date, since the output file '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/build/cache/default/integrated_hsp/integratedHspCache.json' does not exist.
+[2025-04-01T23:24:44.539] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp pre-execution cost: 1 ms .
+[2025-04-01T23:24:44.539] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.539] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.539] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.539] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.11360931396484375
+[2025-04-01T23:24:44.539] [DEBUG] debug-file - runTaskFromQueue task cost before running: 244 ms 
+[2025-04-01T23:24:44.540] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 2 ms 
+[2025-04-01T23:24:44.541] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.541] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.541] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.542] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2025-04-01T23:24:44.542] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.542] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.542] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.543] [DEBUG] debug-file - Use tool [Cmake]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/build-tools/cmake/bin/cmake',
+  '-H/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/cpp',
+  '-B/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/arm64-v8a',
+  '-DOHOS_ARCH=arm64-v8a',
+  '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/arm64-v8a',
+  '-DCMAKE_BUILD_TYPE=Debug',
+  '-DOHOS_SDK_NATIVE=/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native',
+  '-DCMAKE_SYSTEM_NAME=OHOS',
+  '-DCMAKE_OHOS_ARCH_ABI=arm64-v8a',
+  '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON',
+  '-DCMAKE_TOOLCHAIN_FILE=/Applications/DevEco-Studio.app/Contents/sdk/default/hms/native/build/cmake/hmos.toolchain.cmake',
+  '-GNinja',
+  '-DCMAKE_MAKE_PROGRAM=/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/build-tools/cmake/bin/ninja',
+  '-DCMAKE_FIND_ROOT_PATH=/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/hvigor/arm64-v8a',
+  '-DPACKAGE_FIND_FILE=/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/hvigor/arm64-v8a/summary.cmake',
+  '--no-warn-unused-cli',
+  '-DHMOS_SDK_NATIVE=/Applications/DevEco-Studio.app/Contents/sdk/default/hms/native'
+]
+[2025-04-01T23:24:44.553] [DEBUG] debug-file - CMake configuration was up-to-date
+[2025-04-01T23:24:44.555] [DEBUG] debug-file - Use tool [Cmake]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/build-tools/cmake/bin/cmake',
+  '-H/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/cpp',
+  '-B/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/x86_64',
+  '-DOHOS_ARCH=x86_64',
+  '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/x86_64',
+  '-DCMAKE_BUILD_TYPE=Debug',
+  '-DOHOS_SDK_NATIVE=/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native',
+  '-DCMAKE_SYSTEM_NAME=OHOS',
+  '-DCMAKE_OHOS_ARCH_ABI=x86_64',
+  '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON',
+  '-DCMAKE_TOOLCHAIN_FILE=/Applications/DevEco-Studio.app/Contents/sdk/default/hms/native/build/cmake/hmos.toolchain.cmake',
+  '-GNinja',
+  '-DCMAKE_MAKE_PROGRAM=/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/build-tools/cmake/bin/ninja',
+  '-DCMAKE_FIND_ROOT_PATH=/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/hvigor/x86_64',
+  '-DPACKAGE_FIND_FILE=/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/hvigor/x86_64/summary.cmake',
+  '--no-warn-unused-cli',
+  '-DHMOS_SDK_NATIVE=/Applications/DevEco-Studio.app/Contents/sdk/default/hms/native'
+]
+[2025-04-01T23:24:44.558] [DEBUG] debug-file - CMake configuration was up-to-date
+[2025-04-01T23:24:44.559] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory -16.981895446777344
+[2025-04-01T23:24:44.559] [DEBUG] debug-file - runTaskFromQueue task cost before running: 264 ms 
+[2025-04-01T23:24:44.559] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 18 ms 
+[2025-04-01T23:24:44.560] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.560] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.560] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.561] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2025-04-01T23:24:44.562] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo pre-execution cost: 1 ms .
+[2025-04-01T23:24:44.562] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.10800933837890625
+[2025-04-01T23:24:44.562] [INFO] debug-file - UP-TO-DATE :entry:default@MakePackInfo...  
+[2025-04-01T23:24:44.563] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.563] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.563] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.564] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2025-04-01T23:24:44.564] [DEBUG] debug-file - File: '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/src/main/syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2025-04-01T23:24:44.564] [DEBUG] debug-file - Task 'entry:default@SyscapTransform' cost while wrapping incremental declarations: 1 ms 
+[2025-04-01T23:24:44.565] [DEBUG] debug-file - entry:default@SyscapTransform is not up-to-date, since the output file '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/syscap/default/rpcid.sc' does not exist.
+[2025-04-01T23:24:44.565] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform pre-execution cost: 1 ms .
+[2025-04-01T23:24:44.565] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.565] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.565] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.565] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.13787841796875
+[2025-04-01T23:24:44.565] [DEBUG] debug-file - runTaskFromQueue task cost before running: 270 ms 
+[2025-04-01T23:24:44.565] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 2 ms 
+[2025-04-01T23:24:44.605] [DEBUG] debug-file - ninja: Entering directory `/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/x86_64'
+
+[2025-04-01T23:24:44.566] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.612] [DEBUG] debug-file - ninja: no work to do.
+
+[2025-04-01T23:24:44.566] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.566] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.567] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-04-01T23:24:44.568] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2025-04-01T23:24:44.568] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.08744049072265625
+[2025-04-01T23:24:44.568] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2025-04-01T23:24:44.569] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.569] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.569] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.570] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-04-01T23:24:44.571] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 1 ms .
+[2025-04-01T23:24:44.571] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.11827850341796875
+[2025-04-01T23:24:44.571] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2025-04-01T23:24:44.572] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.572] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.572] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.573] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2025-04-01T23:24:44.573] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.573] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.573] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.574] [DEBUG] debug-file - Use tool [Ninja]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/build-tools/cmake/bin/ninja',
+  '-C',
+  '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/arm64-v8a'
+]
+[2025-04-01T23:24:44.575] [DEBUG] debug-file - default@BuildNativeWithNinja work[10] is submitted.
+[2025-04-01T23:24:44.575] [DEBUG] debug-file - default@BuildNativeWithNinja work[10] is pushed to ready queue.
+[2025-04-01T23:24:44.575] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-04-01T23:24:44.575] [DEBUG] debug-file - default@BuildNativeWithNinja work[10] has been dispatched to worker[14].
+[2025-04-01T23:24:44.575] [DEBUG] debug-file - default@BuildNativeWithNinja work[10] is dispatched.
+[2025-04-01T23:24:44.585] [DEBUG] debug-file - Copy STL libc++_shared.so to /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/arm64-v8a due to OHOS_STL is 'c++_shared'
+[2025-04-01T23:24:44.591] [DEBUG] debug-file - worker[14] has one work done.
+[2025-04-01T23:24:44.600] [DEBUG] debug-file - default@BuildNativeWithNinja work[10] done.
+[2025-04-01T23:24:44.600] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2025-04-01T23:24:44.600] [DEBUG] debug-file - Use tool [Ninja]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/build-tools/cmake/bin/ninja',
+  '-C',
+  '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/.cxx/default/default/debug/x86_64'
+]
+[2025-04-01T23:24:44.601] [DEBUG] debug-file - default@BuildNativeWithNinja work[11] is submitted.
+[2025-04-01T23:24:44.601] [DEBUG] debug-file - default@BuildNativeWithNinja work[11] is pushed to ready queue.
+[2025-04-01T23:24:44.601] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-04-01T23:24:44.601] [DEBUG] debug-file - default@BuildNativeWithNinja work[11] has been dispatched to worker[14].
+[2025-04-01T23:24:44.601] [DEBUG] debug-file - default@BuildNativeWithNinja work[11] is dispatched.
+[2025-04-01T23:24:44.610] [DEBUG] debug-file - Copy STL libc++_shared.so to /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/x86_64 due to OHOS_STL is 'c++_shared'
+[2025-04-01T23:24:44.612] [DEBUG] debug-file - worker[14] has one work done.
+[2025-04-01T23:24:44.621] [DEBUG] debug-file - default@BuildNativeWithNinja work[11] done.
+[2025-04-01T23:24:44.621] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2025-04-01T23:24:44.624] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory -1.1388626098632812
+[2025-04-01T23:24:44.625] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.625] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.625] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.626] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2025-04-01T23:24:44.627] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2025-04-01T23:24:44.628] [DEBUG] debug-file - Incremental task entry:default@ProcessResource pre-execution cost: 1 ms .
+[2025-04-01T23:24:44.628] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.19769287109375
+[2025-04-01T23:24:44.629] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessResource...  
+[2025-04-01T23:24:44.630] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.631] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.631] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.632] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-04-01T23:24:44.634] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 52 ms 
+[2025-04-01T23:24:44.635] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.635] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.635] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.636] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2025-04-01T23:24:44.637] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2025-04-01T23:24:44.644] [DEBUG] debug-file - Incremental task entry:default@CompileResource pre-execution cost: 6 ms .
+[2025-04-01T23:24:44.647] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 3 ms .
+[2025-04-01T23:24:44.647] [DEBUG] debug-file - entry : default@CompileResource cost memory 0.9831161499023438
+[2025-04-01T23:24:44.647] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 1.5093917846679688
+[2025-04-01T23:24:44.647] [INFO] debug-file - UP-TO-DATE :entry:default@CompileResource...  
+[2025-04-01T23:24:44.648] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.648] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.648] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.649] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2025-04-01T23:24:44.650] [DEBUG] debug-file - Check content hash for /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/x86_64/libentry.so
+[2025-04-01T23:24:44.653] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2025-04-01T23:24:44.654] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.654] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.654] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.655] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2025-04-01T23:24:44.661] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS pre-execution cost: 4 ms .
+[2025-04-01T23:24:44.661] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 0.5005874633789062
+[2025-04-01T23:24:44.662] [INFO] debug-file - UP-TO-DATE :entry:default@CompileArkTS...  
+[2025-04-01T23:24:44.663] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.663] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.663] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.665] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2025-04-01T23:24:44.666] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.0943603515625
+[2025-04-01T23:24:44.666] [DEBUG] debug-file - runTaskFromQueue task cost before running: 371 ms 
+[2025-04-01T23:24:44.666] [INFO] debug-file - Finished :entry:default@BuildJS... after 2 ms 
+[2025-04-01T23:24:44.669] [DEBUG] debug-file - Check content hash for /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/x86_64/libc++_shared.so
+[2025-04-01T23:24:44.673] [DEBUG] debug-file - Check content hash for /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so
+[2025-04-01T23:24:44.675] [DEBUG] debug-file - Check content hash for /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libc++_shared.so
+[2025-04-01T23:24:44.680] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs pre-execution cost: 2 ms .
+[2025-04-01T23:24:44.680] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 2.0891036987304688
+[2025-04-01T23:24:44.680] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessLibs...  
+[2025-04-01T23:24:44.681] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.681] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.681] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.682] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2025-04-01T23:24:44.682] [DEBUG] debug-file - Task 'entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2025-04-01T23:24:44.683] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip pre-execution cost: 1 ms .
+[2025-04-01T23:24:44.683] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.13391876220703125
+[2025-04-01T23:24:44.684] [INFO] debug-file - UP-TO-DATE :entry:default@DoNativeStrip...  
+[2025-04-01T23:24:44.684] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.684] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.685] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.686] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2025-04-01T23:24:44.686] [DEBUG] debug-file - Task 'entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2025-04-01T23:24:44.687] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs pre-execution cost: 1 ms .
+[2025-04-01T23:24:44.687] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.1383056640625
+[2025-04-01T23:24:44.687] [INFO] debug-file - UP-TO-DATE :entry:default@CacheNativeLibs...  
+[2025-04-01T23:24:44.688] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.688] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.688] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.689] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2025-04-01T23:24:44.689] [DEBUG] debug-file - Task 'entry:default@GeneratePkgModuleJson' cost while wrapping incremental declarations: 1 ms 
+[2025-04-01T23:24:44.689] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson pre-execution cost: 1 ms .
+[2025-04-01T23:24:44.689] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.061065673828125
+[2025-04-01T23:24:44.690] [INFO] debug-file - UP-TO-DATE :entry:default@GeneratePkgModuleJson...  
+[2025-04-01T23:24:44.691] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.691] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.691] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.694] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2025-04-01T23:24:44.698] [DEBUG] debug-file - Incremental task entry:default@PackageHap pre-execution cost: 4 ms .
+[2025-04-01T23:24:44.698] [DEBUG] debug-file - entry : default@PackageHap cost memory 0.4714508056640625
+[2025-04-01T23:24:44.700] [INFO] debug-file - UP-TO-DATE :entry:default@PackageHap...  
+[2025-04-01T23:24:44.701] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.701] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.701] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.702] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2025-04-01T23:24:44.702] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in /Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/build-profile.json5.
+[2025-04-01T23:24:44.702] [DEBUG] debug-file - entry:default@SignHap is not up-to-date, since the output file '/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/outputs/default/entry-default-signed.hap' does not exist.
+[2025-04-01T23:24:44.702] [DEBUG] debug-file - Incremental task entry:default@SignHap pre-execution cost: 1 ms .
+[2025-04-01T23:24:44.703] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.703] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.703] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.703] [DEBUG] debug-file - entry : default@SignHap cost memory 0.12070465087890625
+[2025-04-01T23:24:44.703] [DEBUG] debug-file - runTaskFromQueue task cost before running: 408 ms 
+[2025-04-01T23:24:44.703] [INFO] debug-file - Finished :entry:default@SignHap... after 2 ms 
+[2025-04-01T23:24:44.704] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.704] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.704] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.705] [DEBUG] debug-file - Executing task :entry:default@CollectDebugSymbol
+[2025-04-01T23:24:44.707] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-04-01T23:24:44.707] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-04-01T23:24:44.707] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"}} at undefined
+[2025-04-01T23:24:44.707] [DEBUG] debug-file - entry : default@CollectDebugSymbol cost memory 0.18779754638671875
+[2025-04-01T23:24:44.707] [DEBUG] debug-file - runTaskFromQueue task cost before running: 412 ms 
+[2025-04-01T23:24:44.707] [INFO] debug-file - Finished :entry:default@CollectDebugSymbol... after 3 ms 
+[2025-04-01T23:24:44.708] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2025-04-01T23:24:44.708] [DEBUG] debug-file - entry : assembleHap cost memory 0.01171112060546875
+[2025-04-01T23:24:44.708] [DEBUG] debug-file - runTaskFromQueue task cost before running: 413 ms 
+[2025-04-01T23:24:44.708] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2025-04-01T23:24:44.709] [DEBUG] debug-file - BUILD SUCCESSFUL in 415 ms 
+[2025-04-01T23:24:44.709] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2025-04-01T23:24:44.710] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateMetadata is up-to-date.
+[2025-04-01T23:24:44.710] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2025-04-01T23:24:44.710] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2025-04-01T23:24:44.710] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache.
+[2025-04-01T23:24:44.710] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-04-01T23:24:44.710] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/build/cache/default/integrated_hsp/integratedHspCache.json cache.
+[2025-04-01T23:24:44.710] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2025-04-01T23:24:44.710] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MakePackInfo is up-to-date.
+[2025-04-01T23:24:44.710] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/syscap_tool cache by regenerate.
+[2025-04-01T23:24:44.710] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/ets/api/device-define cache by regenerate.
+[2025-04-01T23:24:44.711] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/syscap/default/rpcid.sc cache.
+[2025-04-01T23:24:44.711] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:1 ms .
+[2025-04-01T23:24:44.711] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2025-04-01T23:24:44.711] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2025-04-01T23:24:44.711] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessResource is up-to-date.
+[2025-04-01T23:24:44.711] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2025-04-01T23:24:44.711] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CompileResource is up-to-date.
+[2025-04-01T23:24:44.711] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessLibs is up-to-date.
+[2025-04-01T23:24:44.711] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CompileArkTS is up-to-date.
+[2025-04-01T23:24:44.712] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/loader/default cache by regenerate.
+[2025-04-01T23:24:44.712] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/ResourceTable.txt cache by regenerate.
+[2025-04-01T23:24:44.712] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/ark_module.json cache by regenerate.
+[2025-04-01T23:24:44.712] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/res/default/resources/base/profile cache by regenerate.
+[2025-04-01T23:24:44.712] [DEBUG] debug-file - Update task entry:default@BuildJS output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/loader_out/default/js cache.
+[2025-04-01T23:24:44.712] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:1 ms .
+[2025-04-01T23:24:44.712] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@DoNativeStrip is up-to-date.
+[2025-04-01T23:24:44.712] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CacheNativeLibs is up-to-date.
+[2025-04-01T23:24:44.712] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GeneratePkgModuleJson is up-to-date.
+[2025-04-01T23:24:44.712] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PackageHap is up-to-date.
+[2025-04-01T23:24:44.712] [DEBUG] debug-file - Update task entry:default@SignHap input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/outputs/default/entry-default-unsigned.hap cache by regenerate.
+[2025-04-01T23:24:44.713] [DEBUG] debug-file - Update task entry:default@SignHap output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/outputs/default/entry-default-signed.hap cache.
+[2025-04-01T23:24:44.713] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2025-04-01T23:24:44.713] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/loader_out/default/ets/sourceMaps.map cache by regenerate.
+[2025-04-01T23:24:44.714] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/intermediates/libs/default cache by regenerate.
+[2025-04-01T23:24:44.714] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol output file:/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/Login/entry/build/default/outputs/default/symbol cache.
+[2025-04-01T23:24:44.714] [DEBUG] debug-file - Incremental task entry:default@CollectDebugSymbol post-execution cost:2 ms .
+[2025-04-01T23:24:44.724] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-04-01T23:24:44.727] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-04-01T23:24:44.727] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-04-01T23:24:44.727] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-04-01T23:24:44.727] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
