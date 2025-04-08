@@ -1,25 +1,15 @@
 {
-  "apiType": "stageMode",
+  "apiType": 'stageMode',
   "buildOption": {
+    "externalNativeOptions": {
+      "cppFlags": "",
+      "abiFilters": ["arm64-v8a", "x86_64"]
+    }
   },
-  "buildOptionSet": [
-    {
-      "name": "release",
-      "arkOptions": {
-        "obfuscation": {
-          "ruleOptions": {
-            "enable": false,
-            "files": [
-              "./obfuscation-rules.txt"
-            ]
-          }
-        }
-      }
-    },
-  ],
   "targets": [
     {
-      "name": "default"
+      "name": "default",
+      "runtimeOS": "HarmonyOS"
     },
     {
       "name": "ohosTest",

@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47799388-4f46-4fa5-882f-d761278700ae" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../helloWorld/entry/src/main/ets/pages/Index.ets" beforeDir="false" afterPath="$PROJECT_DIR$/../helloWorld/entry/src/main/ets/pages/Index.ets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entry/src/main/ets/pages/Index.ets" beforeDir="false" afterPath="$PROJECT_DIR$/entry/src/main/ets/pages/Index.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ArkTS/entry/src/ohosTest/ets/test/Index.test.ets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ArkTS/entry/src/main/ets/pages/Index.ets" beforeDir="false" afterPath="$PROJECT_DIR$/../../ArkTS/entry/src/main/ets/pages/Index.ets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ArkTS/entry/src/ohosTest/ets/test/List.test.ets" beforeDir="false" afterPath="$PROJECT_DIR$/../../ArkTS/entry/src/ohosTest/ets/test/List.test.ets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/outputs/build-logs/build.log" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/outputs/build-logs/build.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/outputs/sync/fileCache.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/outputs/sync/fileCache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/outputs/sync/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/outputs/sync/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +47,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ace.nodejs.version": "18.20.1",
-    "last_opened_file_path": "/Users/jiangweidong/Desktop/HarmonyOS/study-code/HarmonyOS/quickStudy",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;127.0.0.1:5555&quot;: &quot;5369456401743518211667&quot;,
+    &quot;Application.entry.executor&quot;: &quot;Run&quot;,
+    &quot;MODULE_HAP_TIME&quot;: &quot;{\&quot;127.0.0.1:5555entry\&quot;:\&quot;2025-04-01T14:34:53.154393777Z\&quot;}&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ace.nodejs.version&quot;: &quot;18.20.1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/HarmonyOS/quickStudy&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/entry/src/main/resources/base/media" />

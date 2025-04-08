@@ -14,6 +14,107 @@ import CommonConstants from "@bundle:com.huawei.logindemo/entry/ets/common/const
 import StyleConstants from "@bundle:com.huawei.logindemo/entry/ets/common/constants/StyleConstants";
 import CommonUtils from "@bundle:com.huawei.logindemo/entry/ets/common/utils/CommonUtils";
 import MultipleDevicesUtils from "@bundle:com.huawei.logindemo/entry/ets/common/utils/MultipleDevicesUtils";
+/**
+ * The login page consists of two components.
+ * LoginTitle and LoginBottom, which can be invoked by directly referencing the control.
+ */
+class Dog {
+    name: String = "dog";
+    sleep() {
+        console.log('test log:' + 'dog sleep');
+    }
+}
+class Cat {
+    name: String = 'cat';
+    back() {
+        console.log('test log:' + 'cat back');
+    }
+}
+function factorial(n: number): number {
+    if (n < 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+type Animal = Dog | Cat | number;
+function foo(anim: Animal) {
+    if (anim instanceof Dog) {
+        anim.sleep();
+        return;
+    }
+    if (anim instanceof Cat) {
+        anim.back();
+        return;
+    }
+    console.log('test log:' + anim.toString());
+}
+function test1() {
+    /// 变量
+    let ha: string = 'hello';
+    /// 常量
+    const he: String = 'he';
+    let a: number = factorial(20);
+    /// 超长数字
+    let bigInt: bigint = BigInt('9999999999999999999999999999999999999999999');
+    let abc: String = "adb ";
+    /// 模板字面量
+    let abccd = `这是 ${abc}`;
+    console.log('test log:' + bigInt.toString());
+    console.log('test log:' + abccd);
+    let array: String[] = ['a', 'b', 'c'];
+    console.log('test log:' + array);
+    /// 联合类型
+    let anim: Animal = new Dog();
+    console.log('test log:' + anim.name);
+    anim = 100;
+    console.log('test log:' + anim);
+    anim = new Cat();
+    console.log('test log:' + anim.name);
+    foo(new Dog());
+    foo(new Cat());
+    foo(99);
+    console.log('test log:' + '====');
+    for (let index = 0; index < ha.length; index++) {
+        const element = ha[index];
+        console.log('test log:' + element);
+    }
+    console.log('test log:' + '====');
+    for (let obj of 'asdfghjkl') {
+        console.log('test log:' + obj);
+    }
+    abctest('kkk');
+    abctest(33);
+    let jack = new Person();
+    // 假设代码中没有对name赋值，例如调用"jack.setName('Jack')"
+    jack.setName('Jack');
+    jack.getName().length; // 运行时异常：name is undefined
+    console.log('test log:' + jack.name);
+    /// 键值对
+    let map: Record<string, number> = {
+        'Jack': 330000000,
+        'KL': 50
+    };
+    let num = map['KL'];
+    console.log('test log: KL is ' + num.toString());
+    console.log('test log: jack is ' + map['Jack'].toString());
+}
+/// 函数重载
+function abctest(a: String): void;
+function abctest(a: number): void;
+function abctest(a: String | number): void {
+    console.log('test log:' + a);
+}
+class Person {
+    name: string = ''; // undefined
+    setName(n: string): void {
+        this.name = n;
+    }
+    getName(): string {
+        // 开发者使用"string"作为返回类型，这隐藏了name可能为"undefined"的事实。
+        // 更合适的做法是将返回类型标注为"string | undefined"，以告诉开发者这个API所有可能的返回值。
+        return this.name;
+    }
+}
 class LoginPage extends ViewPU {
     constructor(parent, params, __localStorage, elmtId = -1, paramsLambda = undefined, extraInfo) {
         super(parent, __localStorage, elmtId, extraInfo);
@@ -80,7 +181,7 @@ class LoginPage extends ViewPU {
                 if (isInitialRender) {
                     let componentCall = new 
                     // Title component
-                    LoginTitle(this, {}, undefined, elmtId, () => { }, { page: "entry/src/main/ets/pages/LoginPage.ets", line: 57, col: 11 });
+                    LoginTitle(this, {}, undefined, elmtId, () => { }, { page: "entry/src/main/ets/pages/LoginPage.ets", line: 182, col: 11 });
                     ViewPU.create(componentCall);
                     let paramsLambda = () => {
                         return {};
@@ -97,7 +198,7 @@ class LoginPage extends ViewPU {
                 if (isInitialRender) {
                     let componentCall = new 
                     // Bottom component
-                    LoginBottom(this, {}, undefined, elmtId, () => { }, { page: "entry/src/main/ets/pages/LoginPage.ets", line: 59, col: 11 });
+                    LoginBottom(this, {}, undefined, elmtId, () => { }, { page: "entry/src/main/ets/pages/LoginPage.ets", line: 184, col: 11 });
                     ViewPU.create(componentCall);
                     let paramsLambda = () => {
                         return {};
@@ -306,6 +407,7 @@ class LoginBottom extends ViewPU {
             });
             Button.onClick(() => {
                 CommonUtils.loginArkTS(this.account, this.password);
+                test1();
             });
         }, Button);
         Button.pop();

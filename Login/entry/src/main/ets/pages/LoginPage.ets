@@ -22,6 +22,131 @@ import MultipleDevicesUtils from '../common/utils/MultipleDevicesUtils';
  * The login page consists of two components.
  * LoginTitle and LoginBottom, which can be invoked by directly referencing the control.
  */
+
+class Dog {
+  name: String = "dog";
+
+  sleep() {
+    console.log('test log:' + 'dog sleep')
+  }
+}
+
+class Cat {
+  name: String = 'cat'
+
+  back() {
+    console.log('test log:' + 'cat back')
+  }
+}
+
+function factorial(n: number): number {
+  if (n < 1) {
+    return 1;
+  }
+  return n * factorial(n - 1);
+}
+
+type Animal = Dog | Cat | number;
+
+function foo(anim: Animal) {
+  if (anim instanceof Dog) {
+    anim.sleep()
+    return;
+  }
+  if (anim instanceof Cat) {
+    anim.back()
+    return
+  }
+  console.log('test log:' + anim.toString())
+}
+
+function test1() {
+
+  /// 变量
+  let ha: string = 'hello'
+  /// 常量
+  const he: String = 'he'
+  let a: number = factorial(20)
+  /// 超长数字
+  let bigInt: bigint = BigInt('9999999999999999999999999999999999999999999')
+
+  let abc: String = "adb "
+  /// 模板字面量
+  let abccd = `这是 ${abc}`
+
+  console.log('test log:' + bigInt.toString())
+  console.log('test log:' + abccd)
+
+  let array: String[] = ['a', 'b', 'c']
+  console.log('test log:' + array)
+
+  /// 联合类型
+  let anim: Animal = new Dog()
+  console.log('test log:' + anim.name)
+  anim = 100
+  console.log('test log:' + anim)
+  anim = new Cat()
+  console.log('test log:' + anim.name)
+
+  foo(new Dog())
+  foo(new Cat())
+  foo(99)
+
+  console.log('test log:' + '====')
+  for (let index = 0; index < ha.length; index++) {
+    const element = ha[index];
+    console.log('test log:' + element)
+  }
+  console.log('test log:' + '====')
+
+  for (let obj of 'asdfghjkl') {
+    console.log('test log:' + obj)
+  }
+
+  abctest('kkk')
+  abctest(33)
+
+
+  let jack = new Person();
+  // 假设代码中没有对name赋值，例如调用"jack.setName('Jack')"
+  jack.setName('Jack')
+  jack.getName().length; // 运行时异常：name is undefined
+  console.log('test log:' + jack.name)
+
+  /// 键值对
+  let map: Record<string, number> = {
+    'Jack': 330000000,
+    'KL': 50
+  }
+  let num = map['KL']
+  console.log('test log: KL is ' + num.toString())
+
+  console.log('test log: jack is ' + map['Jack'].toString())
+
+}
+
+/// 函数重载
+function abctest(a: String): void;
+function abctest(a: number): void;
+function abctest(a: String | number):void {
+  console.log('test log:' + a)
+}
+
+class Person {
+  name: string = ''; // undefined
+
+  setName(n:string): void {
+    this.name = n;
+  }
+
+  getName(): string {
+    // 开发者使用"string"作为返回类型，这隐藏了name可能为"undefined"的事实。
+    // 更合适的做法是将返回类型标注为"string | undefined"，以告诉开发者这个API所有可能的返回值。
+    return this.name;
+  }
+}
+
+
 @Entry
 @Component
 struct LoginPage {
@@ -162,6 +287,7 @@ struct LoginBottom {
         })
         .onClick(() => {
           CommonUtils.loginArkTS(this.account, this.password);
+          test1()
         })
       Text($r('app.string.register_account'))
         .fontColor($r('app.color.blue_text_color'))
@@ -180,7 +306,8 @@ struct LoginBottom {
   }
 }
 
-@Extend(TextInput) function inputStyle() {
+@Extend(TextInput)
+function inputStyle() {
   .placeholderColor($r('app.color.placeholder_color'))
   .height($r('app.float.login_input_height'))
   .fontSize($r('app.float.normal_text_size'))
@@ -189,7 +316,8 @@ struct LoginBottom {
   .padding({ left: StyleConstants.INPUT_PADDING_LEFT })
 }
 
-@Extend(Text) function blueTextStyle() {
+@Extend(Text)
+function blueTextStyle() {
   .fontColor($r('app.color.blue_text_color'))
   .fontSize($r('app.float.small_text_size'))
   .fontWeight(FontWeight.Medium)
