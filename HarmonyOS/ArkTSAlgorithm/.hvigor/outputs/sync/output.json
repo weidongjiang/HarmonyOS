@@ -20,8 +20,7 @@
           "JS_SUPER_VISUAL_PATH": "/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/HarmonyOS/ArkTSAlgorithm/entry/build/default/cache/default/default@CompileJS/jsbundle",
           "WORKER_LOADER": "/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/HarmonyOS/ArkTSAlgorithm/entry/build/default/intermediates/loader/default/loader.json",
           "MANIFEST_JSON": "/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/HarmonyOS/ArkTSAlgorithm/entry/build/default/intermediates/manifest/default",
-          "OUTPUT_METADATA_JSON": "/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/HarmonyOS/ArkTSAlgorithm/entry/build/default/intermediates/hap_metadata/default/output_metadata.json",
-          "SOURCE_MAP_DIR": "/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/HarmonyOS/ArkTSAlgorithm/entry/build/default/intermediates/source_map/default"
+          "OUTPUT_METADATA_JSON": "/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/HarmonyOS/ArkTSAlgorithm/entry/build/default/intermediates/hap_metadata/default/output_metadata.json"
         },
         "BUILD_OPTION": {
           "debuggable": true
@@ -43,8 +42,7 @@
           "JS_SUPER_VISUAL_PATH": "/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/HarmonyOS/ArkTSAlgorithm/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileJS/jsbundle",
           "WORKER_LOADER": "/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/HarmonyOS/ArkTSAlgorithm/entry/build/default/intermediates/loader/ohosTest/loader.json",
           "MANIFEST_JSON": "/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/HarmonyOS/ArkTSAlgorithm/entry/build/default/intermediates/manifest/ohosTest",
-          "OUTPUT_METADATA_JSON": "/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/HarmonyOS/ArkTSAlgorithm/entry/build/default/intermediates/hap_metadata/ohosTest/output_metadata.json",
-          "SOURCE_MAP_DIR": "/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/HarmonyOS/ArkTSAlgorithm/entry/build/default/intermediates/source_map/ohosTest"
+          "OUTPUT_METADATA_JSON": "/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/HarmonyOS/ArkTSAlgorithm/entry/build/default/intermediates/hap_metadata/ohosTest/output_metadata.json"
         },
         "BUILD_OPTION": {
           "debuggable": true
@@ -90,8 +88,7 @@
           "name": "ohosTest"
         }
       ]
-    },
-    "BUILD_CACHE_DIR": ""
+    }
   },
   "ohos-project": {
     "SELECT_PRODUCT_NAME": "default",
@@ -156,8 +153,7 @@
     },
     "OVERALL_PROJECT_PATHS": [
       "/Users/jiangweidong/Desktop/HarmonyOS/HarmonyOS-code/HarmonyOS/ArkTSAlgorithm"
-    ],
-    "BUILD_CACHE_DIR": ""
+    ]
   },
   "version": 1
 }
