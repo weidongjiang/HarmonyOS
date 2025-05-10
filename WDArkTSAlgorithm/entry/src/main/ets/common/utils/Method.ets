@@ -1,0 +1,14 @@
+
+/*3位数水仙花数*/
+export function daffodilsNumber(): number[] {
+  let result: number[] = []
+  for (let index = 100; index < 1000; index++) {
+    let unitsDigit: number = index % 10;
+    let tenthsDigit: number = Math.floor(index / 10) - Math.floor(index / 100) * 10;
+    let hundredthsDigit: number = Math.floor(index / 100);
+    if (index === unitsDigit * unitsDigit * unitsDigit + tenthsDigit * tenthsDigit * tenthsDigit + hundredthsDigit * hundredthsDigit * hundredthsDigit) {
+      result.push(index)
+    }
+  }
+  return result
+}
