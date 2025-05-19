@@ -19,6 +19,54 @@ struct Index {
           size: $r('app.float.text_font_size'),
           weight: CommonConstants.FONT_WEIGHT_SEVEN_HUNDRED
         })
+      Column() {
+        Button($r('app.string.DaffodilsNumber'))
+          .width($r('app.float.button_width'))
+          .height($r('app.float.button_height'))
+          .onClick(() => {
+            /// 水仙花
+          })
+        Button($r('app.string.MultiplicationTable'))
+          .width($r('app.float.button_width'))
+          .height($r('app.float.button_height'))
+          .margin({
+            top: $r('app.float.button_margin_top')
+          })
+          .onClick(() => {
+            /// 乘法表
+          })
+        Button($r('app.string.IsPalindromicString'))
+          .width($r('app.float.button_width'))
+          .height($r('app.float.button_height'))
+          .margin({
+            top:$r('app.float.button_margin_top')
+          })
+          .onClick(() => {
+            ///回文字符
+          })
+        Button($r('app.string.StringReversal'))
+          .width($r('app.float.button_width'))
+          .height($r('app.float.button_height'))
+          .margin({
+            top: $r('app.float.button_margin_top')
+          })
+          .onClick(() => {
+            /// 字符串反转
+          })
+        Button($r('app.string.IsLeapYear'))
+          .width($r('app.float.button_width'))
+          .height($r('app.float.button_height'))
+          .margin({
+            top: $r('app.float.button_margin_top')
+          })
+          .onClick(() => {
+            /// 闰年判断
+          })
+      }
+      .width(CommonConstants.PERCENT_FULL)
     }
+    .justifyContent(FlexAlign.SpaceBetween)
+    .width(CommonConstants.PERCENT_FULL)
+    .height(CommonConstants.PERCENT_FULL)
   }
 }
