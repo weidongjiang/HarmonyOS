@@ -1,9 +1,15 @@
 import { CommonConstants } from '../common/constants/Constants';
+import { DaffodilsNumberCustomDialog } from '../view/DaffodilsNumberCustomDialog';
 
 @Entry
 @Component
 struct Index {
-  @State message: string = 'Hello World';
+  daffodilsNumberCustomDialogController: CustomDialogController | null = new CustomDialogController({
+    builder: DaffodilsNumberCustomDialog(),
+    alignment: DialogAlignment.Center,
+    offset: {dx: CommonConstants.OFFSET_X, dy: CommonConstants.OFFSET_Y}
+  });
+
 
   build() {
     Column() {
@@ -25,6 +31,7 @@ struct Index {
           .height($r('app.float.button_height'))
           .onClick(() => {
             /// 水仙花
+            this.daffodilsNumberCustomDialogController?.open()
           })
         Button($r('app.string.MultiplicationTable'))
           .width($r('app.float.button_width'))
@@ -70,3 +77,4 @@ struct Index {
     .height(CommonConstants.PERCENT_FULL)
   }
 }
+

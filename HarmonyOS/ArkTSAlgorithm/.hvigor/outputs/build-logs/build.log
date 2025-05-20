@@ -4190,3 +4190,8 @@ Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = /User
 [2025-05-19T22:19:40.112] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS post-execution cost:4 ms .
 [2025-05-19T22:19:40.122] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
 [2025-05-19T22:19:40.123] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-05-19T22:36:32.152] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-05-19T22:36:32.152] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-05-19T22:36:32.176] [DEBUG] debug-file - bad codeSnippet [object Object]
+[2025-05-19T22:36:32.187] [DEBUG] debug-file - watch worker: worker is ready to be terminated.
+[2025-05-19T22:36:32.187] [DEBUG] debug-file - Server currently has 0 watch-worker
