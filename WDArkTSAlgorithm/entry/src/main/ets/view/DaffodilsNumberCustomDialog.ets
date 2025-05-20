@@ -1,6 +1,7 @@
 
 
 import { CommonConstants } from '../common/constants/Constants';
+import { daffodilsNumber } from '../common/utils/Method';
 
 @CustomDialog
 export struct DaffodilsNumberCustomDialog {
@@ -27,7 +28,7 @@ export struct DaffodilsNumberCustomDialog {
       .width(CommonConstants.PERCENT_FULL)
       .height($r('app.float.dialog_text_height'))
 
-      Text('hjsfhksdfh')
+      Text(daffodilsNumber().toString())
         .font({size: $r('sys.float.ohos_id_text_size_body1')})
         .fontColor($r('sys.color.ohos_id_color_text_primary'))
         .margin({
