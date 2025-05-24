@@ -2,6 +2,8 @@ import { CommonConstants } from '../common/constants/Constants';
 import { DaffodilsNumberCustomDialog } from '../view/DaffodilsNumberCustomDialog';
 import { MultiplicationTableCustomDialog } from '../view/MultiplicationTableCustomDialog'
 import { IsPalindromicStringCustomDialog } from '../view/IsPalindromicStringCustomDialog'
+import { StringReversalCustomDialog } from '../view/StringReversalCustomDialog'
+
 import Logger from '../common/utils/Logger'
 import { multiplicationTable } from '../common/utils/Method'
 
@@ -22,6 +24,15 @@ struct Index {
     builder: IsPalindromicStringCustomDialog(),
     alignment: DialogAlignment.Center,
     offset: { dx: CommonConstants.OFFSET_X, dy: CommonConstants.OFFSET_Y }
+  });
+
+  StringReversalCustomDialogController: CustomDialogController | null = new CustomDialogController({
+    builder: StringReversalCustomDialog(),
+    alignment: DialogAlignment.Center,
+    offset: {
+      dx: CommonConstants.OFFSET_X,
+      dy: CommonConstants.OFFSET_Y
+    }
   });
 
   build() {
@@ -79,6 +90,7 @@ struct Index {
           })
           .onClick(() => {
             /// 字符串反转
+            this.StringReversalCustomDialogController?.open()
           })
         Button($r('app.string.IsLeapYear'))
           .width($r('app.float.button_width'))

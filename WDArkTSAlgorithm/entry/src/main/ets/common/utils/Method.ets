@@ -40,3 +40,11 @@ export function isPalindromicString(content: string): boolean {
   }
   return result
 }
+
+export function stringReversal(content: string): string {
+  let result: string = '';
+  for (let index = content.length - 1; index >= 0; index--) {
+    result += content.charAt(index)
+  }
+  return result
+}
