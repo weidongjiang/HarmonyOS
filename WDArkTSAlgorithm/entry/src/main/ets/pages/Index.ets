@@ -1,5 +1,8 @@
 import { CommonConstants } from '../common/constants/Constants';
 import { DaffodilsNumberCustomDialog } from '../view/DaffodilsNumberCustomDialog';
+import { MultiplicationTableCustomDialog } from '../view/MultiplicationTableCustomDialog'
+import Logger from '../common/utils/Logger'
+import { multiplicationTable } from '../common/utils/Method'
 
 @Entry
 @Component
@@ -10,6 +13,11 @@ struct Index {
     offset: {dx: CommonConstants.OFFSET_X, dy: CommonConstants.OFFSET_Y}
   });
 
+  multiplicationTableCustomDialogController: CustomDialogController | null = new CustomDialogController({
+    builder: MultiplicationTableCustomDialog(),
+    alignment: DialogAlignment.Center,
+    offset: {dx: CommonConstants.OFFSET_X, dy: CommonConstants.OFFSET_Y}
+  });
 
   build() {
     Column() {
@@ -40,7 +48,13 @@ struct Index {
             top: $r('app.float.button_margin_top')
           })
           .onClick(() => {
-            /// 乘法表 MultiplicationTableCustomDialog.ets
+            /// 乘法表
+            this.multiplicationTableCustomDialogController?.open()
+            let result = multiplicationTable()
+            for (let index = 0; index < result.length; index++) {
+              let com = result[index]
+              Logger.info(com.toString())
+            }
           })
         Button($r('app.string.IsPalindromicString'))
           .width($r('app.float.button_width'))
@@ -77,4 +91,3 @@ struct Index {
     .height(CommonConstants.PERCENT_FULL)
   }
 }
-

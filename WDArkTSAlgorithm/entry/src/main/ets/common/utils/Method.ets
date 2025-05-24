@@ -12,3 +12,16 @@ export function daffodilsNumber(): number[] {
   }
   return result
 }
+
+export function  multiplicationTable(): string[][] {
+  let result: string[][] = [];
+  for (let i = 0; i <= 9; i++) {
+    let index: string[] = [];
+    for (let j = 0; j <= 9; j++) {
+      let temp: string = j + '*' + i + ' = ' + i * j;
+      index.push(temp);
+    }
+    result.push(index);
+  }
+  return result
+}
