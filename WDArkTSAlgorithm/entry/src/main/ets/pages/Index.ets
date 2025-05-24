@@ -40,7 +40,7 @@ struct Index {
             top: $r('app.float.button_margin_top')
           })
           .onClick(() => {
-            /// 乘法表
+            /// 乘法表 MultiplicationTableCustomDialog.ets
           })
         Button($r('app.string.IsPalindromicString'))
           .width($r('app.float.button_width'))
