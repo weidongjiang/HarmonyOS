@@ -3,6 +3,7 @@ import { DaffodilsNumberCustomDialog } from '../view/DaffodilsNumberCustomDialog
 import { MultiplicationTableCustomDialog } from '../view/MultiplicationTableCustomDialog'
 import { IsPalindromicStringCustomDialog } from '../view/IsPalindromicStringCustomDialog'
 import { StringReversalCustomDialog } from '../view/StringReversalCustomDialog'
+import { IsLeapYearCustomDialog } from '../view/IsLeapYearCustomDialog'
 
 import Logger from '../common/utils/Logger'
 import { multiplicationTable } from '../common/utils/Method'
@@ -33,6 +34,11 @@ struct Index {
       dx: CommonConstants.OFFSET_X,
       dy: CommonConstants.OFFSET_Y
     }
+  });
+  isLeapYearCustomDialogController: CustomDialogController | null = new CustomDialogController({
+    builder: IsLeapYearCustomDialog(),
+    alignment: DialogAlignment.Center,
+    offset: {dx: CommonConstants.OFFSET_X, dy: CommonConstants.OFFSET_Y}
   });
 
   build() {
@@ -100,6 +106,7 @@ struct Index {
           })
           .onClick(() => {
             /// 闰年判断
+            this.isLeapYearCustomDialogController?.open()
           })
       }
       .width(CommonConstants.PERCENT_FULL)

@@ -48,3 +48,11 @@ export function stringReversal(content: string): string {
   }
   return result
 }
+
+export function isLeapYear(content: number): boolean {
+  let result: boolean = false;
+  if ((content % 4 === 0 && content % 100 !== 0) || (content % 400 === 0)) {
+    result = true
+  }
+  return result
+}
