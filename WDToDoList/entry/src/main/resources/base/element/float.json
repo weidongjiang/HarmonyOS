@@ -1,40 +1,36 @@
 {
-  "string": [
+  "float": [
     {
-      "name": "module_desc",
-      "value": "module description"
+      "name": "checkbox_width",
+      "value": "28vp"
     },
     {
-      "name": "EntryAbility_desc",
-      "value": "description"
+      "name": "checkbox_margin",
+      "value": "20vp"
     },
     {
-      "name": "EntryAbility_label",
-      "value": "ToDoList"
+      "name": "item_font_size",
+      "value": "20fp"
     },
     {
-      "name": "page_title",
-      "value": "ToDo"
+      "name": "title_font_size",
+      "value": "28fp"
     },
     {
-      "name": "todo_list_one",
-      "value": "Early Exercise"
+      "name": "title_font_height",
+      "value": "33vp"
     },
     {
-      "name": "todo_list_two",
-      "value": "Prepare Breakfast"
+      "name": "title_margin_top",
+      "value": "24vp"
     },
     {
-      "name": "todo_list_three",
-      "value": "Read Classics"
+      "name": "title_margin_bottom",
+      "value": "12vp"
     },
     {
-      "name": "todo_list_four",
-      "value": "Learn ArkTS"
-    },
-    {
-      "name": "todo_list_five",
-      "value": "Relax With TV Show"
+      "name": "list_item_height",
+      "value": "64vp"
     }
   ]
 }
