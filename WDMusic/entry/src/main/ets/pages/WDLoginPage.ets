@@ -1,23 +1,18 @@
 @Entry
 @Component
 struct WDLoginPage {
-  @State message: string = 'WDLoginPage';
 
   build() {
-    RelativeContainer() {
-      Text(this.message)
-        .id('WDLoginPageHelloWorld')
-        .fontSize($r('app.float.setting_account_fontSize'))
-        .fontWeight(FontWeight.Bold)
-        .alignRules({
-          center: { anchor: '__container__', align: VerticalAlign.Center },
-          middle: { anchor: '__container__', align: HorizontalAlign.Center }
-        })
-        .onClick(() => {
-          this.message = 'Welcome';
-        })
+    Column() {
+
     }
-    .height('100%')
+    .padding({
+      left: '12',
+      right: '12',
+      bottom: '24',
+    })
+    .backgroundColor('#000000')
     .width('100%')
+    .height('100%')
   }
 }
