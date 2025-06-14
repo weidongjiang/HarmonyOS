@@ -1,6 +1,6 @@
 {
   "src": [
-    "pages/WDLoginPage",
+    "pages/Login/WDLoginPage",
     "main/WDMainPage"
   ]
 }
