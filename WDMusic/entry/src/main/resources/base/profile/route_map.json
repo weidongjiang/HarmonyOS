@@ -2,7 +2,7 @@
 {
   "routerMap": [
     {
-      "name": "MainPage",
+      "name": "WDMainPage",
       "pageSourceFile": "src/main/ets/main/WDMainPage.ets",
       "buildFunction": "WDMainPageBuilder",
       "data": {

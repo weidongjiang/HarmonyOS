@@ -174,6 +174,5 @@ struct WDLoginPage {
     .height('100%')
     .hideTitleBar(true)
     .hideToolBar(true)
-
   }
 }
