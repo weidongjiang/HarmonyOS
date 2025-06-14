@@ -1,3 +1,5 @@
+import { promptAction } from '@kit.ArkUI';
+
 @Extend(TextInput)
 function inputStyle() {
   .placeholderColor('#99182431')
@@ -44,6 +46,27 @@ struct WDLoginPage {
     .backgroundColor('F1F3F5')
   }
 
+  login(result: boolean): void {
+    if (this.account == '' || this.password == '') {
+      promptAction.showToast({
+        message: $r('app.string.input_empty_tips')
+      })
+    } else {
+      this.isShowProgress = true
+      if (this.timeOutId === -1) {
+        this.timeOutId = setTimeout(() => {
+          this.isShowProgress = false
+          this.timeOutId = -1
+          this.pathStack.pushPathByName('WDMainPage', null)
+        }, 2000)
+      }
+    }
+  }
+
+  aboutToDisappear(): void {
+    clearTimeout(this.timeOutId)
+    this.timeOutId = -1
+  }
 
   build() {
     Navigation(this.pathStack) {
@@ -70,12 +93,18 @@ struct WDLoginPage {
           .type(InputType.Number)
           .maxLength(11)
           .inputStyle()
+          .onChange((value: string) => {
+            this.account = value
+          })
         Line()
           .lineStyle()
         TextInput({ placeholder: $r('app.string.password') })
           .type(InputType.Password)
           .maxLength(8)
           .inputStyle()
+          .onChange((value: string) => {
+            this.password = value
+          })
         Line()
           .lineStyle()
 
@@ -102,6 +131,9 @@ struct WDLoginPage {
           .margin({
             top: '48',
             bottom: '12'
+          })
+          .onClick(() => {
+            this.login(true)
           })
         Text($r('app.string.register_account'))
           .fontColor('#007DFF')
@@ -142,7 +174,6 @@ struct WDLoginPage {
     .height('100%')
     .hideTitleBar(true)
     .hideToolBar(true)
-
 
   }
 }
