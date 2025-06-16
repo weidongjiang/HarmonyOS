@@ -1,5 +1,5 @@
 
-export default class ddd {
+export default class WDSettingModel {
   id: number;
   title: Resource;
   img: Resource;

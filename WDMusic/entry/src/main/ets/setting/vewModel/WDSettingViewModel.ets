@@ -1,6 +1,6 @@
 import WDSettingModel from "../model/WDSettingModel"
 
-export default class WDSettingViewModel {
+export class WDSettingViewModel {
   getSettingListData(): Array<Array<WDSettingModel>> {
     let listData: WDSettingModel[][] = [
       [
@@ -21,3 +21,5 @@ export default class WDSettingViewModel {
     return listData
   }
 }
+
+export default new WDSettingViewModel()
