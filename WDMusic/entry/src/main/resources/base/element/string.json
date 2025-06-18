@@ -311,6 +311,14 @@
     {
       "name": "Tab_Bar_Two",
       "value": "Mine"
+    },
+    {
+      "name": "Internet",
+      "value": "Internet Permission Request"
+    },
+    {
+      "name": "network_info",
+      "value": "NetWork Info Permission Request"
     }
   ]
 }
