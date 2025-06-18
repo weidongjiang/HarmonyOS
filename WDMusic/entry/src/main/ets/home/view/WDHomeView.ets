@@ -1,9 +1,30 @@
+import WDHomeListInfo from "../../common/WDHomeListInfo";
+import WDValue from "../../common/WDValue";
 import WDHomeModel from "../model/WDHomeModel";
-import wdHomeViewModel  from "../viewModel/WDHomeViewModel";
+import { WDHomeListRCPUtils } from "../viewModel/WDHomeListRCPUtils";
+import wdHomeViewModel from "../viewModel/WDHomeViewModel";
+import { common } from "@kit.AbilityKit";
 
 @Component
 export default struct WDHomeView {
   private swiperController: SwiperController = new SwiperController();
+  private context = this.getUIContext().getHostContext() as common.UIAbilityContext
+  private applicationInfo = this.context.getApplicationContext()
+  private cacheDir = this.applicationInfo.filesDir
+  @State httpGridItems: Array<WDHomeListInfo> = [];
+  @State pictureUri: string = '';
+
+  async aboutToAppear(): Promise<void> {
+
+    let rcpUtil: WDHomeListRCPUtils = new WDHomeListRCPUtils();
+    await rcpUtil.postHomeListRCPRequsst().then((value: Array<WDHomeListInfo>) => {
+      this.httpGridItems = value;
+    })
+    await rcpUtil.getJianTouRCPRequest(this.cacheDir).then((value: string) => {
+      this.pictureUri = value;
+    })
+    rcpUtil.destroySession()
+  }
 
   build() {
     Column() {
@@ -37,7 +58,7 @@ export default struct WDHomeView {
                     .height(40)
                   Text(item.title)
                     .fontSize(12)
-                    .margin({top: 4})
+                    .margin({ top: 4 })
                 }
               }
             }, (item: WDHomeModel) => JSON.stringify(item.id))
