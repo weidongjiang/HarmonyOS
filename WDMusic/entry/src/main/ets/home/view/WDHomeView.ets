@@ -82,6 +82,73 @@ export default struct WDHomeView {
           .height('156')
           .backgroundColor(Color.White)
           .borderRadius(16)
+
+          Text($r('app.string.home_list'))
+            .fontSize(18)
+            .fontWeight(700)
+            .width('100%')
+            .margin({
+              top: '18',
+              bottom: '8'
+            })
+
+          List() {
+            ForEach(this.httpGridItems, (item: WDHomeListInfo) => {
+              ListItem() {
+                Row() {
+                  Image(item.indexNavPic)
+                    .width('130')
+                    .height('80')
+                    .objectFit(ImageFit.TOP_START)
+                    .borderRadius('8')
+                    .margin({right: '12'})
+
+                  Column() {
+                    Text(item.activityName)
+                      .width('190')
+                      .textOverflow({overflow: TextOverflow.Ellipsis})
+                      .maxLines(1)
+                      .fontSize('16')
+                      .fontWeight(FontWeight.Medium)
+                    Text(item.theme)
+                      .width('190')
+                      .textOverflow({overflow: TextOverflow.Ellipsis})
+                      .maxLines(2)
+                      .fontSize('12')
+                      .fontColor('#99182431')
+                      .margin({top: '8'})
+
+                    Row() {
+                      Image(this.pictureUri)
+                        .width('20')
+                        .opacity(0.5)
+                    }
+                    .width('170')
+                    .margin({top: '10'})
+                    .justifyContent(FlexAlign.End)
+                    .alignItems(VerticalAlign.Bottom)
+                  }
+                  .alignItems(HorizontalAlign.Start)
+                }
+                .width('100%')
+                .padding({
+                  top: '12',
+                  left: '12',
+                  bottom: '12',
+                  right: '12'
+                })
+                .justifyContent(FlexAlign.SpaceBetween)
+              }
+              .margin({bottom: '8'})
+              .borderRadius('16')
+              .backgroundColor('#ffffff')
+              .align(Alignment.TopStart)
+              .width('100%')
+            }, (item: WDHomeListInfo) => JSON.stringify(item))
+          }
+          .scrollBar(BarState.Off)
+          .width('100%')
+
         }
       }
       .height(660)
