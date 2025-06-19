@@ -47,7 +47,7 @@ export class WDHomeListRCPUtils {
       'language': 'cn',
       'needTop': '1',
       'displayChannel': [1, 3],
-      'count': 4,
+      'count': 40,
       'pagestart': 1,
       'type': '1,4,5,6'
     }

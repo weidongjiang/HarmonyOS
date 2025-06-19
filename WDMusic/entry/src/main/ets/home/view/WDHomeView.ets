@@ -4,6 +4,9 @@ import WDHomeModel from "../model/WDHomeModel";
 import { WDHomeListRCPUtils } from "../viewModel/WDHomeListRCPUtils";
 import wdHomeViewModel from "../viewModel/WDHomeViewModel";
 import { common } from "@kit.AbilityKit";
+import { hilog } from "@kit.PerformanceAnalysisKit";
+
+const DOMAIN = 0x0000;
 
 @Component
 export default struct WDHomeView {
@@ -144,6 +147,9 @@ export default struct WDHomeView {
               .backgroundColor('#ffffff')
               .align(Alignment.TopStart)
               .width('100%')
+              .onClick(() => {
+                hilog.debug(DOMAIN, 'testTad', item.activityName)
+              })
             }, (item: WDHomeListInfo) => JSON.stringify(item))
           }
           .scrollBar(BarState.Off)
