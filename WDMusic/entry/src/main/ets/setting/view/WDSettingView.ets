@@ -1,8 +1,16 @@
 import wdSettingViewModel from '../vewModel/WDSettingViewModel'
 import WDSettingModel from '../model/WDSettingModel'
+import { WDSliderCustomDialog } from '../view/WDSliderCustomDialog'
 
 @Component
 export default struct WDSetting {
+  WDSliderCustomDialogController: CustomDialogController = new CustomDialogController({
+    builder: WDSliderCustomDialog({}),
+    alignment: DialogAlignment.Bottom,
+    customStyle: true,
+    offset: { dx: 0, dy: -25 }
+  });
+
   @Builder
   settingCell(item: WDSettingModel) {
     Row() {
@@ -30,6 +38,11 @@ export default struct WDSetting {
     .padding({
       left: '8',
       right: '22'
+    })
+    .onClick(() => {
+      if (item.id === 1) {
+        this.WDSliderCustomDialogController.open()
+      }
     })
   }
 
@@ -70,9 +83,9 @@ export default struct WDSetting {
         List({ space: '12' }) {
           ForEach(wdSettingViewModel.getSettingListData(), (item: WDSettingModel[]) => {
             ListItemGroup() {
-              ForEach(item, (cell: WDSettingModel, currentIndex) => {
+              ForEach(item, (itemData: WDSettingModel, currentIndex) => {
                 ListItem() {
-                  this.settingCell(cell)
+                  this.settingCell(itemData)
                 }
                 .height('48')
               })
