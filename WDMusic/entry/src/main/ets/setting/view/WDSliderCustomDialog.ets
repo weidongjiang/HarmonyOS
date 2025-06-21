@@ -1,4 +1,4 @@
-import WDPreferencesUtil from "../../common/WDPreferencesUtil"
+import WDPreferencesUtil from "../../common/dataBase/WDPreferencesUtil"
 
 @CustomDialog
 export struct WDSliderCustomDialog {

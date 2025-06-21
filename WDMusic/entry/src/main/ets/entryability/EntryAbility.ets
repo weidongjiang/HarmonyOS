@@ -1,7 +1,7 @@
 import { AbilityConstant, ConfigurationConstant, UIAbility, Want } from '@kit.AbilityKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { window } from '@kit.ArkUI';
-import WDPreferencesUtil from '../common/WDPreferencesUtil';
+import WDPreferencesUtil from '../common/dataBase/WDPreferencesUtil';
 
 const DOMAIN = 0x0000;
 
