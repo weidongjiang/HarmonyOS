@@ -8,6 +8,11 @@
       "data": {
         "description" : "this is mainPage"
       }
+    },
+    {
+      "name": "WDMyGoalPage",
+      "pageSourceFile": "src/main/ets/goalPage/WDMyGoalPage.ets",
+      "buildFunction": "WDMyGoalPageBuilder"
     }
   ]
 }

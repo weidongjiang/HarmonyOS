@@ -10,6 +10,7 @@ export default struct WDSetting {
     customStyle: true,
     offset: { dx: 0, dy: -25 }
   });
+  pathStack: NavPathStack = new NavPathStack();
 
   @Builder
   settingCell(item: WDSettingModel) {
@@ -42,12 +43,13 @@ export default struct WDSetting {
     .onClick(() => {
       if (item.id === 1) {
         this.WDSliderCustomDialogController.open()
+      } else if (item.id === 3) {
+        this.pathStack.pushPathByName('WDMyGoalPage', null);
       }
     })
   }
 
   build() {
-
     Scroll() {
       Column({ space: 12 }) {
         Text($r('app.string.mainPage_tabTitles_mine'))

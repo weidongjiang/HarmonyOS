@@ -1,3 +1,4 @@
+import WDPreferencesUtil from '../common/dataBase/WDPreferencesUtil';
 import WDHomeView from '../home/view/WDHomeView'
 import WDSetting from '../setting/view/WDSettingView'
 
@@ -9,6 +10,7 @@ export function WDMainPageBuilder() {
 @Entry
 @Component
 struct WDMainPage {
+  @StorageLink('fontSizeOffset') fontSizeOffset: number = 0
   @State currentIndex: number = 0;
   private tabsController: TabsController = new TabsController();
 
@@ -37,6 +39,10 @@ struct WDMainPage {
       this.currentIndex = index
       this.tabsController.changeIndex(this.currentIndex)
     })
+  }
+
+  aboutToAppear(): void {
+    this.fontSizeOffset = WDPreferencesUtil.getFontSize()
   }
 
   build() {

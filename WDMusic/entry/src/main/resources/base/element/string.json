@@ -197,6 +197,10 @@
       "value": "Menu Settings"
     },
     {
+      "name": "setting_list_jihua",
+      "value": "Jihua Settings"
+    },
+    {
       "name": "setting_list_about",
       "value": "About"
     },
